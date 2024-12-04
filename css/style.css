@@ -198,7 +198,7 @@ label {
   height: 115px;
   margin-top: -55px;
   line-height: 115px;
-  padding: 0 10px;
+  /* padding: 0 10px; */
 }
 .logo img {
   width: 7rem;
@@ -443,11 +443,11 @@ label {
 }
 .sticky-menu .logo {
   margin-top: 0;
-  line-height: 61px;
+  line-height: 80px;
   height: auto;
 }
 .sticky-menu::before {
-  height: 71px;
+  height: 80px;
   top: 0;
   left: -20px;
 }
@@ -497,6 +497,7 @@ label {
   width: 0;
 }
 .slider-active .slick-dots li.slick-active button {
+  display: none;
   width: 50px;
   background: #ffcc00;
 }
@@ -714,12 +715,12 @@ label {
   height: 100%;
   width: 100%;
   background: #000;
-  opacity: 0.5;
+  opacity: 0.3;
   z-index: -1;
 }
-.slider-bg5::before {
+/* .slider-bg5::before {
   opacity: 0;
-}
+} */
 .show-bg3::before {
   content: "";
   position: absolute;
@@ -3328,7 +3329,8 @@ div.single-cta:last-child {
 }
 /* 20. footer */
 .footer-bg {
-  background: url(../img/bg/footer_bg.png);
+  background-color: #181f3b;
+  /* background: url(../img/bg/footer_bg.png); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -6688,4 +6690,88 @@ p.checkout-coupon input[type="text"] {
   top: 0;
   width: auto;
   z-index: 0;
+}
+
+
+.breadcrumb-area::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 0.3;
+  transition: 0.3s;
+}
+
+.breadcrumb-area .container{
+  z-index: 1 !important;
+}
+
+.f-contact ul li {
+  display: flex;
+  align-items: center;
+}
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .menu-area::before {
+      height: 104px !important;
+  }
+} */
+
+@media (max-width: 767px) {
+  .menu-area::before {
+      height: 80px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu-area {
+      padding: 0px 0 0 !important;
+  }
+  #header-sticky{
+    height: 80px;
+  }
+  .sticky-menu .mean-container a.meanmenu-reveal {
+    margin-top: -48px !important;
+}
+.logo a img {
+  padding-top: 5px !important;
+}
+  .logo {
+      padding:0 !important;
+  
+}
+.logo img {
+  width: 6rem !important;
+}
+}
+
+.mean-container .mean-nav {
+  margin-top: 11px !important;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo {
+      width: 16% !important;
+  }
+  .sticky-menu::before {
+    height: 101px !important;
+}
+}
+
+.mean-container .mean-bar {
+  top: 0 !important;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .sticky-menu::before {
+      height: 80px !important;
+  }
+ 
+}
+
+.mean-container a.meanmenu-reveal {
+  top: -10px !important;
 }
