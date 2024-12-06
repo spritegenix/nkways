@@ -6832,4 +6832,36 @@ color: #181f3b !important;
     bottom: 100px;
     right: 10px;
   }
+ 
+}
+
+@media (max-width: 320px) {
+  #contact-form4 input {
+    width: 70%;
+  }
+  .slider-btn {
+    margin-bottom: 50px !important;
+}
+.slider-content > span {
+  margin-top: 30px !important;
+}
+.readers {
+  margin-top: -32px !important;
+}
+
+.slider-bg {
+  background-position: left !important;
+}
+#floating_btn {
+  bottom: 89px;
+  right: 18px;
+  width: 47px;
+  height: 60px;
+}
+}
+@media (max-width: 768px) {
+  .contact-bg {
+    background-position: left !important;
+}
+
 }
