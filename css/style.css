@@ -6835,7 +6835,7 @@ color: #181f3b !important;
  
 }
 
-@media (max-width: 320px) {
+@media (max-width: 363px) {
   #contact-form4 input {
     width: 70%;
   }
