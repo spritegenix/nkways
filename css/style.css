@@ -847,9 +847,9 @@ label {
 .slider-btn .btn::before {
   content: none;
 }
-.slider-btn .btn {
+/* .slider-btn .btn {
   box-shadow: 3px 3px 0 0 #ffcc00;
-}
+} */
 .slider-btn .btn:hover {
   box-shadow: none;
 }
@@ -922,7 +922,7 @@ label {
 .btn.ss-btn {
   background: transparent linear-gradient(90deg, #ffcc00 0%, #ffcc00 100%) 0% 0%
     no-repeat padding-box;
-  box-shadow: 3px 4px 15px #ffcc00;
+  /* box-shadow: 3px 4px 15px #ffcc00; */
   color: #fff;
 }
 .btn.ss-btn:hover {
@@ -6763,7 +6763,7 @@ p.checkout-coupon input[type="text"] {
 }
 
 .mean-container .mean-bar {
-  top: 0 !important;
+  top: 7px !important;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -6808,3 +6808,16 @@ color: #181f3b !important;
     margin-top: 5rem !important;
     }
 }
+#floating_btn {
+  position: fixed;
+  bottom: 150px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
