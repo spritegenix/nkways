@@ -6821,3 +6821,15 @@ color: #181f3b !important;
   z-index: 1000;
 }
 
+@media (min-width: 983px) {
+  #home{
+    height: 750px;
+  }
+}
+
+@media (max-width: 767px) {
+  #floating_btn {
+    bottom: 100px;
+    right: 10px;
+  }
+}
