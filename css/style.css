@@ -6832,6 +6832,9 @@ color: #181f3b !important;
     bottom: 100px;
     right: 10px;
   }
+  .slider-bg {
+    background-position: left !important;
+  }
  
 }
 
@@ -6849,9 +6852,7 @@ color: #181f3b !important;
   margin-top: -32px !important;
 }
 
-.slider-bg {
-  background-position: left !important;
-}
+
 #floating_btn {
   bottom: 89px;
   right: 18px;
