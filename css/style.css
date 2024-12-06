@@ -674,13 +674,13 @@ label {
 }
 .breadcrumb li a {
   font-size: 16px;
-  color: #242424;
+  color: #ffcc00;
 }
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: 15px;
   padding-left: 15px;
-  color: #292929;
+  color: #ffcc00;
   content: ">";
 }
 .breadcrumb-title h2 {
@@ -696,7 +696,7 @@ label {
   font-size: 16px;
 }
 .breadcrumb > .active {
-  color: #383838;
+  color: #ffcc00;
   font-weight: 500;
 }
 /* 3. slider */
