@@ -1,1 +1,1 @@
-git@github.com:spritegenix/nkways.git webiste: https://nkwayshome.co.za/
+git@github.com:spritegenix/nkways.git website: https://nkwayshome.co.za/
