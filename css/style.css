@@ -6866,3 +6866,38 @@ color: #181f3b !important;
 }
 
 }
+
+.gallery-container{
+  padding: 2rem ;
+  column-count: 4;
+  max-width: 75%;
+  margin: 0 auto;
+}
+.gallery-container img{
+  width: 100%;
+height: auto;
+margin-bottom: 1rem;
+}
+.gallery-container img:hover{
+ transform: scale(1.1) ;
+ transition: transform 0.4s ease;
+ border: 5px solid #ffcc00;
+}
+
+@media (max-width:1024px) {
+  .gallery-container{
+    column-count: 3;
+  }
+}
+@media (max-width:768px) {
+  .gallery-container{
+    column-count: 2;
+    max-width: 85%;
+  }
+}
+@media (max-width:426px) {
+  .gallery-container{
+    column-count: 1;
+    max-width: 90%;
+  }
+}
