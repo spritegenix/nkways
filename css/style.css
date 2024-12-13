@@ -6901,3 +6901,23 @@ margin-bottom: 1rem;
     max-width: 90%;
   }
 }
+.slick-prev .slick-arrow{
+display: none !important;
+}
+.regular{
+height: 20rem;
+}
+
+.regular div{
+  height: 300px;
+  width: 100%;
+  padding: 0 1rem;
+  
+  }
+  .regular div img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+   border-radius: 2rem;
+    }
+

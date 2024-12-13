@@ -20,6 +20,16 @@
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Slick Slider CSS -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick-theme.css"/>
+
+<!-- jQuery (required for Slick Slider) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Slick Slider JS -->
+<script src="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.min.js"></script>
+
   </head>
   <body>
     <!-- header -->
@@ -353,7 +363,8 @@
               >
                 <img src="img/count/icon2.png" alt="img" />
                 <div class="counter p-relative">
-                  <span class="count">100</span><small>+</small>
+                  <span class="count">12</span>
+                  <!-- <small>+</small> -->
                 </div>
                 <p>Employees</p>
                 <div class="line"></div>
@@ -367,7 +378,7 @@
               >
                 <img src="img/count/icon3.png" alt="img" />
                 <div class="counter p-relative">
-                  <small>$</small><span class="count">5845</span
+                  <small>ZAR </small><span class="count">50800</span
                   >
                   <!-- <small>M</small> -->
                 </div>
@@ -1520,6 +1531,47 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
       <!-- contact-area-end -->
       <!-- brand-area -->
       <div class="brand-area pt-60 pb-60" style="background-color: #fff">
+       
+        <section class="regular slider d-flex justify-content-center align-items-center">
+          <div>
+            <img src="img/gallery/IMG-20241203-WA0012.jpg">
+          </div>
+          <div>
+            <img src="img/gallery/IMG-20241203-WA0014.jpg">
+          </div>
+          <div>
+            <img src="img/gallery/IMG-20241203-WA0018.jpg">
+          </div>
+          <div>
+            <img src="img/gallery/IMG-20241203-WA0021.jpg">
+          </div>
+          <div>
+            <img src="img/gallery/IMG-20241203-WA0022.jpg">
+          </div>
+          <div>
+            <img src="img/gallery/IMG-20241203-WA0023.jpg">
+          </div>
+          <div>
+            <img src="img/gallery/IMG-20241203-WA0031.jpg">
+          </div>
+          <div>
+            <img src="img/gallery/IMG-20241203-WA0033.jpg">
+          </div>
+        </section>
+        <div class="slider-btn d-flex justify-content-center pt-3">
+          <a
+            href="gallery.html"
+            class="btn ss-btn"
+            data-animation="fadeInRight"
+            data-delay=".8s"
+            >View More</a
+          >
+          <!-- <div
+            class="btn-after"
+            data-animation="fadeInRight"
+            data-delay=".8s"
+          ></div> -->
+        </div>
         <!-- <div class="container">
           <div class="row brand-active">
             <div class="col-xl-2">
@@ -1555,7 +1607,7 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
     <!-- main-area-end -->
     <!-- footer -->
     <div id="floating_btn">
-      <a target="_blank" href="https://wa.me/+27635823087" aria-label="Whatsapp us">
+      <a target="_blank" href="https://wa.me/+27762595746" aria-label="Whatsapp us">
         <div class="contact_icon">
           <img src="/img/whatsapp.png" alt="">
         </div>
@@ -1641,7 +1693,7 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
                         ><i class="fas fa-chevron-right"></i> Contact Us
                         </a
                       >
-                                       </li>
+                     </li>
                     <!-- <li>
                       <a href="#"><i class="fas fa-chevron-right"></i> Help</a>
                     </li> -->
@@ -1758,6 +1810,46 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
       </div>
     </footer>
     <!-- footer-end -->
+<script>
+  $(document).ready(function(){
+   $(".regular").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        autoplay: true,
+        arrows:false,
+        autoplaySpeed: 2000,
+        speed:1000,
+        responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+   
+  ]
+      });
+  });
+</script>
 
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
