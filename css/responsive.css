@@ -484,7 +484,13 @@ margin-right: auto;
 }
     .testimonial-active2 .ta-info {
     margin-top: 30px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+}
+.slick-track{
+	height: fit-content;
+}
+.single-testimonial p{
+padding: 0;
 }
     .testimonial-active2 .testi-author img {
     margin-bottom: 0;
