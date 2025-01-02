@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
     <title>NKWAYS HOME IMPROVEMENT AND MAINTENANCE</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,7 +24,72 @@
     <!-- Slick Slider CSS -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.css"/>
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick-theme.css"/>
+<style>
+  body {
+      font-family: Arial, sans-serif;
+  }
 
+  /* The popup form's modal background */
+  .modal {
+      display: none; /* Hidden by default */
+      position: fixed;
+      z-index: 101; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4); /* Background color */
+  }
+
+  /* Popup Form Container */
+  .modal-content {
+      background-color: #fff;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 8px;
+  }
+
+  /* Close button */
+  .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+  }
+
+  /* Input fields */
+  .inputstest {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+  /* Submit button */
+  /* button {
+      background-color: #ffcc00;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+      width: 100%;
+  } */
+
+</style>
 <!-- jQuery (required for Slick Slider) -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
@@ -1137,7 +1203,7 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
                 <h2>What Our Client’s Say’s</h2>
               </div>
               <div class="testimonial-active2">
-                <div class="slider slider-for">
+                <div class="slider slider-for testimonialInside">
                   <div class="single-testimonial">
                     <div class="com-icon">
                       <img src="img/bg/Icon_comment.png" alt="img" />
@@ -1148,7 +1214,7 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
                       <img src="img/testimonial/test_img01.png" alt="img" />
                       <div class="ta-info mt-0 ml-3 text-center">
                         <h6>Hifzul-Rahmaan</h6>
-                        <!-- <span>SALES EXECUTIVE</span> -->
+                        <span>SALES EXECUTIVE</span>
                       </div>
                     </div>
                   </div>
@@ -1157,12 +1223,11 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
                       <img src="img/bg/Icon_comment.png" alt="img" />
                     </div>
                     <p>
-                      We recently hired NKWays for the interior paint work of our home.Along the way, they recentered electrical work and fixed a few other issues.Arnold and his team are hard working,efficient and a great bunch to have on site.They are always early on site and will not close off on the project unless both you and the team are completely happy. It was wonderful to experience a home improvement that was stress free.I would highly recommend their services.Many thanks to Arnold and his experienced team members.                    </p>
-                      <div class="testi-author d-flex gap-4 justify-content-center align-items-center">
+                      We recently hired NKWays for the interior paint work of our home.Along the way, they recentered electrical work and fixed a few other issues.Arnold and his team are hard working,efficient and a great bunch to have on site.They are always early on site and will not close off on the project unless both you and the team are completely happy. It was wonderful to experience a home improvement that was stress free.I would highly recommend their services.Many thanks to Arnold and his experienced team members.</p>                    <div class="testi-author d-flex gap-4 justify-content-center align-items-center">
                       <img src="img/testimonial/test_img01.png" alt="img" />
                       <div class="ta-info mt-0 ml-3 text-center">
                         <h6>Faranaaz</h6>
-                        <!-- <span>Web Developer</span> -->
+                        <span>contractor</span>
                       </div>
                     </div>
                   </div>
@@ -1214,12 +1279,45 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
                 </div>
               </div>
             </div>
-            <div class="col-lg-1"></div>
+            <div class="col-lg-1">
+              <!-- <div class="slider-btn d-flex justify-content-center pt-3">
+                <button id="addTestimonial"
+                 style="z-index: 1;"
+                  class="btn ss-btn"
+                  data-animation="fadeInRight"
+                  data-delay=".8s"
+                  >Add Testimonial</button
+                >
+              </div> -->
+               <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Submit Your Testimonial</h2>
+          <form id="testimonialForm">
+              <label for="username">Username</label>
+              <input class="inputstest" type="text" id="username" name="username" required>
+
+              <label for="designation">Designation</label>
+              <input class="inputstest"  type="text" id="designation" name="email" required>
+<!-- 
+              <label for="phone">Phone Number</label>
+              <input class="inputstest"  type="tel" id="phone" name="phone" required> -->
+
+              <label for="message">Testimonial Message</label>
+              <textarea class="inputstest"  id="message" name="message" rows="4" required></textarea>
+
+              <button class="btn ss-btn" type="submit">Submit Testimonial</button>
+          </form>
+      </div>
+  </div>
+            </div>
           </div>
         </div>
       </section>
       <!-- testimonial-area-end -->
-
+<div id="blogPosts" style="background-color: #181f3b;"></div>
       <!-- counter-area -->
       <div
         class="call-area"
@@ -1443,7 +1541,9 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
                 <h2>Get In Touch</h2>
               </div>
               <form
-                action="#"
+              id="contact-form"
+                action="mail.php"
+                method="POST"
                 class="contact-form wow fadeInUp animated"
                 data-animation="fadeInDown animated"
                 data-delay=".2s"
@@ -1454,12 +1554,14 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
                       <input
                         type="text"
                         placeholder="Please enter your name"
+                        name="name"
                       />
                     </div>
                   </div>
                   <div class="col-lg-12">
                     <div class="contact-field p-relative c-email mb-20">
-                      <input type="text" placeholder="Please enter your email" />
+                      <input type="text" placeholder="Please enter your email"
+                      name="email" />
                     </div>
                   </div>
                   <div class="col-lg-12">
@@ -1467,6 +1569,7 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
                       <input
                         type="text"
                         placeholder="Subject"
+                        name="subject"
                       />
                     </div>
                   </div>
@@ -1481,15 +1584,15 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
                       ></textarea>
                     </div>
                     <div class="slider-btn">
-                      <a
-                        href="#"
+                      <button
+                       
                         class="btn ss-btn"
                         data-animation="fadeInRight"
                         data-delay=".8s"
-                        >Send Message</a
+                        >Send Message</button
                       >
                       <div
-                        class="btn-after"
+                        class="ajax-response"
                         data-animation="fadeInRight"
                         data-delay=".8s"
                       ></div>
@@ -1871,5 +1974,6 @@ At Nkways Home Improvement and Maintenance, quality is at the heart of everythin
     <script src="js/element-in-view.js"></script>
     <!-- <script src="js/whatsapp.js"></script> -->
     <script src="js/main.js"></script>
+    <!-- <script src="js/popup.js"></script> -->
   </body>
 </html>

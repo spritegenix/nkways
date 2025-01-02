@@ -252,7 +252,9 @@
                 <h2>Get In Touch</h2>
               </div>
               <form
-                action="#"
+              id="contact-form"
+                action="mail.php"
+                method="POST"
                 class="contact-form wow fadeInUp animated"
                 data-animation="fadeInDown animated"
                 data-delay=".2s"
@@ -263,12 +265,14 @@
                       <input
                         type="text"
                         placeholder="Please enter your name"
+                        name="name"
                       />
                     </div>
                   </div>
                   <div class="col-lg-12">
                     <div class="contact-field p-relative c-email mb-20">
-                      <input type="text" placeholder="Please enter your email" />
+                      <input type="text" placeholder="Please enter your email"
+                      name="email" />
                     </div>
                   </div>
                   <div class="col-lg-12">
@@ -276,6 +280,7 @@
                       <input
                         type="text"
                         placeholder="Subject"
+                        name="subject"
                       />
                     </div>
                   </div>
@@ -290,15 +295,15 @@
                       ></textarea>
                     </div>
                     <div class="slider-btn">
-                      <a
+                      <button
                         href="#"
                         class="btn ss-btn"
                         data-animation="fadeInRight"
                         data-delay=".8s"
-                        >Send Message</a
+                        >Send Message</button
                       >
                       <div
-                        class="btn-after"
+                        class="ajax-response"
                         data-animation="fadeInRight"
                         data-delay=".8s"
                       ></div>
