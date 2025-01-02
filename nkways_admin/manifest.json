@@ -1,0 +1,23 @@
+{
+  "short_name": "SpriteGenix ERP",
+  "name": "SpriteGenix ERP",
+  "icons": [
+    {
+      "src": "public/manifest_img/icons1.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "public/manifest_img/icons2.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://SpriteGenix.net/SpriteGenixcloudservice/",
+  "background_color": "#ffffff",
+  "display": "fullscreen",
+  "scope": "https://SpriteGenix.net/SpriteGenixcloudservice/",
+  "theme_color": "#bd0756",
+  "description": "Simple & fastest business tool.",
+  "orientation": "portrait"
+}

@@ -1,0 +1,1618 @@
+CRITICAL - 2023-05-12 03:22:45 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:24:24 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:24:27 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:24:34 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:25:58 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:26:00 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:26:02 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:27:35 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:27:39 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:29:22 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:34:10 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:35:42 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:36:28 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:36:43 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:45:42 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:45:53 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:45:56 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:46:09 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:46:12 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:46:14 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:46:17 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 03:46:20 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:05:50 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:05:58 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:06:07 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:08:40 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:13:04 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:13:53 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:30:33 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:30:35 --> Undefined variable $ManufacturesModel
+in APPPATH\Controllers\Manufacture.php on line 173.
+ 1 APPPATH\Controllers\Manufacture.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ManufacturesModel', 'APPPATH\\Controllers\\Manufacture.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->edit_manufacture('74')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:31:05 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:40:19 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:40:22 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:40:24 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:40:27 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:40:29 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:40:56 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:42:00 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:42:09 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:42:21 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:43:09 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:43:12 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:45:51 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:45:55 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:50:14 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:51:49 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:53:05 --> Undefined array key "total_manufacture_cost"
+in APPPATH\Views\manufacture\create_manufacture.php on line 247.
+ 1 APPPATH\Views\manufacture\create_manufacture.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "total_manufacture_cost"', 'APPPATH\\Views\\manufacture\\create_manufacture.php', 247)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manufacture\\create_manufacture.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manufacture/create_manufacture', [], true)
+ 5 APPPATH\Controllers\Manufacture.php(201): view('manufacture/create_manufacture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->edit_manufacture('74')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:53:22 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:54:14 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:54:23 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 04:55:49 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:04:28 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:06:08 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:06:23 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:06:40 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:08:26 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:08:45 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:09:48 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:10:24 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:11:06 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:11:11 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3920.
+ 1 APPPATH\Helpers\apanel_helper.php(3920): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3920)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:16:09 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:16:11 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:18:32 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:18:34 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:18:37 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:31:06 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:35:12 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:38:02 --> syntax error, unexpected token "endforeach", expecting "elseif" or "else" or "endif"
+in APPPATH\Views\manufacture\create_manufacture.php on line 227.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manufacture/create_manufacture', [], true)
+ 3 APPPATH\Controllers\Manufacture.php(201): view('manufacture/create_manufacture', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->edit_manufacture('74')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:38:52 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:38:56 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:39:25 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:39:50 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 05:40:27 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:07:11 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:07:14 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:07:17 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:07:19 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:25:49 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:26:04 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:26:47 --> Undefined variable $item_id
+in APPPATH\Views\manufacture\create_manufacture.php on line 122.
+ 1 APPPATH\Views\manufacture\create_manufacture.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item_id', 'APPPATH\\Views\\manufacture\\create_manufacture.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manufacture\\create_manufacture.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manufacture/create_manufacture', [], true)
+ 5 APPPATH\Controllers\Manufacture.php(201): view('manufacture/create_manufacture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->edit_manufacture('74')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:27:06 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:27:11 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:27:52 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:31:18 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:31:21 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:31:55 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:33:16 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:33:18 --> Undefined variable $raw_materials_array
+in APPPATH\Views\manufacture\create_manufacture.php on line 122.
+ 1 APPPATH\Views\manufacture\create_manufacture.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $raw_materials_array', 'APPPATH\\Views\\manufacture\\create_manufacture.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manufacture\\create_manufacture.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manufacture/create_manufacture', [], true)
+ 5 APPPATH\Controllers\Manufacture.php(201): view('manufacture/create_manufacture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->edit_manufacture('74')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:33:38 --> Undefined variable $raw_materials_array
+in APPPATH\Views\manufacture\create_manufacture.php on line 122.
+ 1 APPPATH\Views\manufacture\create_manufacture.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $raw_materials_array', 'APPPATH\\Views\\manufacture\\create_manufacture.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manufacture\\create_manufacture.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manufacture/create_manufacture', [], true)
+ 5 APPPATH\Controllers\Manufacture.php(201): view('manufacture/create_manufacture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->edit_manufacture('74')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:33:50 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3928.
+ 1 APPPATH\Helpers\apanel_helper.php(3928): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3928)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:34:48 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:34:50 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:34:52 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:34:55 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:34:58 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:35:13 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:35:18 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:36:04 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:38:44 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:38:46 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:38:47 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:38:48 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:48:14 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 06:48:39 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:00:55 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:01:29 --> Undefined variable $item_id
+in APPPATH\Views\manufacture\create_manufacture.php on line 143.
+ 1 APPPATH\Views\manufacture\create_manufacture.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item_id', 'APPPATH\\Views\\manufacture\\create_manufacture.php', 143)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manufacture\\create_manufacture.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manufacture/create_manufacture', [], true)
+ 5 APPPATH\Controllers\Manufacture.php(201): view('manufacture/create_manufacture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->edit_manufacture('74')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:01:33 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:02:13 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:03:02 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:03:31 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:03:53 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:04:02 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:06:14 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:13:42 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:13:44 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:13:47 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:13:51 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-05-12 07:14:37 --> mysqli_sql_exception: Unknown column 'base_quantity' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ma...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Manufacture.php(417): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Manufacture->save_manufacture()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-05-12 07:14:37 --> Unknown column 'base_quantity' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `manufactured_items` (`manufacture_id`, `product_id`, `product`, `item_id`, `quantity`, `base_quantity`, `price`, `selling_price`, `amount`, `unit`, `sub_unit`, `conversion_unit_rate`, `in_unit`, `old_quantity`, `old_amount`) VALUES (:manufacture_id:, :product_id:, :product:, :item_id:, :quantity:, :base_quantity:, :price:, :selling_price:, :amount:, :unit:, :sub_unit:, :conversion_unit_rate:, :in_unit:, :old_quantity:, :old_amount:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Manufacture.php(417): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->save_manufacture()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:16:09 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:16:11 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:16:14 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:16:31 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:16:33 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:16:46 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:18:26 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:18:29 --> Undefined variable $man_data
+in APPPATH\Views\manufacture\create_manufacture.php on line 276.
+ 1 APPPATH\Views\manufacture\create_manufacture.php(276): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $man_data', 'APPPATH\\Views\\manufacture\\create_manufacture.php', 276)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\manufacture\\create_manufacture.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('manufacture/create_manufacture', [], true)
+ 5 APPPATH\Controllers\Manufacture.php(148): view('manufacture/create_manufacture', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->create_manufacture('26')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:19:12 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:19:16 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 07:19:35 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:16:00 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:16:05 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:18:05 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:18:11 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:18:14 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:18:19 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:18:22 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:18:23 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:18:41 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:18:44 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:18:50 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:19:05 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:19:09 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:19:40 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:19:50 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:20:48 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:21:30 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:24:55 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:35:31 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:35:33 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:35:41 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:35:45 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:35:46 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:49:19 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:49:25 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:49:28 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Manufacture.php on line 496.
+ 1 APPPATH\Controllers\Manufacture.php(496): trim([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->update_manufacture('77')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:49:31 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:49:33 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:49:57 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Manufacture.php on line 496.
+ 1 APPPATH\Controllers\Manufacture.php(496): trim([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->update_manufacture('77')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:50:08 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:50:12 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:50:14 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:50:16 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:50:21 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Manufacture.php on line 496.
+ 1 APPPATH\Controllers\Manufacture.php(496): trim([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->update_manufacture('77')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:50:57 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:50:59 --> trim(): Argument #1 ($string) must be of type string, array given
+in APPPATH\Controllers\Manufacture.php on line 496.
+ 1 APPPATH\Controllers\Manufacture.php(496): trim([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Manufacture->update_manufacture('77')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Manufacture))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:55:44 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:55:52 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:56:15 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:56:46 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 08:57:02 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:13:34 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:13:43 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:26:54 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:27:00 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:27:09 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:27:17 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:27:28 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:29:36 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:29:39 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:29:42 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:29:57 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:30:00 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:30:06 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:30:16 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:30:49 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:31:00 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:31:30 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:31:33 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:31:50 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:32:10 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:32:21 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:32:24 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:32:37 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:32:45 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:33:21 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:33:37 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-12 09:34:30 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3934.
+ 1 APPPATH\Helpers\apanel_helper.php(3934): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3934)
+ 2 APPPATH\Controllers\Fees_and_payments.php(3085): invoice_data('undefined', 'customer')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '8', 'undefined')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

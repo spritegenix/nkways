@@ -1,0 +1,6 @@
+Product Name,Unit,Sub Unit,Conversion Unit Rate,Stock,Tax,MRP(optional),Sale Margin(optional),Purchase Margin(optional),Sale Price,Sale Tax,Purchased Price,Purchase Tax,Description,Brand,Category,Sub Category,Barcode,Type,Product Code,HSNC/GTIN/UPC/EAN/JAN/ISBN,Batch No,Bin Location
+Apple iPhone 11 Pro,Box,,0,0,28,150000,0,0,150000,with,150000,with,,Apple,Mobiles,,1.18571E+12,product,,,,
+Apple iPhone 12 Pro,Box,,0,0,28,150000,0,0,150000,with,150001,with,,Apple,Mobiles,,1.18571E+12,product,,,,
+Apple iPhone 13 Pro,Box,,0,0,28,150000,0,0,150000,with,150002,with,,Apple,Mobiles,,1.18571E+12,product,,,,
+Apple iPhone 14 Pro,Box,,0,0,28,150000,0,0,150000,with,150003,with,,Apple,Mobiles,,1.18571E+12,product,,,,
+Apple iPhone 15 Pro,Box,,0,0,28,150000,0,0,150000,with,150004,with,,Apple,Mobiles,,1.18571E+12,product,,,,

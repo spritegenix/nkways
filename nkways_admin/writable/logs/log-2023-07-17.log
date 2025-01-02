@@ -1,0 +1,363 @@
+CRITICAL - 2023-07-17 04:13:52 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Hr_manage.php on line 422.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Hr_manage.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Hr_manage')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Hr_manage')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Hr_manage', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 04:40:23 --> Undefined array key 1
+in APPPATH\Helpers\payroll_helper.php on line 21.
+ 1 APPPATH\Helpers\payroll_helper.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 1', 'APPPATH\\Helpers\\payroll_helper.php', 21)
+ 2 APPPATH\Views\hr_manage\attendance-pushed.php(37): decimal_to_time('0')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance-pushed.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance-pushed', [], true)
+ 6 APPPATH\Views\hr_manage\attendance.php(139): view('hr_manage/attendance-pushed')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+10 APPPATH\Controllers\Hr_manage.php(123): view('hr_manage/attendance')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 04:43:13 --> Undefined variable $hours
+in APPPATH\Helpers\payroll_helper.php on line 32.
+ 1 APPPATH\Helpers\payroll_helper.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hours', 'APPPATH\\Helpers\\payroll_helper.php', 32)
+ 2 APPPATH\Views\hr_manage\attendance-pushed.php(33): decimal_to_time('7.91')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance-pushed.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance-pushed', [], true)
+ 6 APPPATH\Views\hr_manage\attendance.php(139): view('hr_manage/attendance-pushed')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+10 APPPATH\Controllers\Hr_manage.php(123): view('hr_manage/attendance')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 04:45:11 --> syntax error, unexpected token "}", expecting ";"
+in APPPATH\Helpers\payroll_helper.php on line 37.
+ 1 SYSTEMPATH\Controller.php(85): helper([...])
+ 2 APPPATH\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 04:47:10 --> Undefined variable $new_hourrrr
+in APPPATH\Helpers\payroll_helper.php on line 52.
+ 1 APPPATH\Helpers\payroll_helper.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_hourrrr', 'APPPATH\\Helpers\\payroll_helper.php', 52)
+ 2 APPPATH\Views\hr_manage\attendance-pushed.php(37): decimal_to_time('0')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance-pushed.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance-pushed', [], true)
+ 6 APPPATH\Views\hr_manage\attendance.php(139): view('hr_manage/attendance-pushed')
+ 7 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 8 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 9 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+10 APPPATH\Controllers\Hr_manage.php(123): view('hr_manage/attendance')
+11 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+12 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+13 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:45:56 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 568.
+ 1 APPPATH\Controllers\Hr_manage.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 568)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:46:50 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 568.
+ 1 APPPATH\Controllers\Hr_manage.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 568)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:46:52 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 568.
+ 1 APPPATH\Controllers\Hr_manage.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 568)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:47:00 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 568.
+ 1 APPPATH\Controllers\Hr_manage.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 568)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:47:26 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 568.
+ 1 APPPATH\Controllers\Hr_manage.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 568)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:47:27 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 568.
+ 1 APPPATH\Controllers\Hr_manage.php(568): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 568)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:48:02 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 569.
+ 1 APPPATH\Controllers\Hr_manage.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 569)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:48:04 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 569.
+ 1 APPPATH\Controllers\Hr_manage.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 569)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:49:01 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 569.
+ 1 APPPATH\Controllers\Hr_manage.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 569)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:49:13 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 569.
+ 1 APPPATH\Controllers\Hr_manage.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 569)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:49:14 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 569.
+ 1 APPPATH\Controllers\Hr_manage.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 569)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:49:25 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 569.
+ 1 APPPATH\Controllers\Hr_manage.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 569)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:49:32 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 569.
+ 1 APPPATH\Controllers\Hr_manage.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 569)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 05:49:38 --> Undefined variable $AttendanceModel
+in APPPATH\Controllers\Hr_manage.php on line 569.
+ 1 APPPATH\Controllers\Hr_manage.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $AttendanceModel', 'APPPATH\\Controllers\\Hr_manage.php', 569)
+ 2 APPPATH\Controllers\Hr_manage.php(494): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 06:54:10 --> Undefined variable $CarryForwardedLeaves
+in APPPATH\Controllers\Hr_manage.php on line 286.
+ 1 APPPATH\Controllers\Hr_manage.php(286): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $CarryForwardedLeaves', 'APPPATH\\Controllers\\Hr_manage.php', 286)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 06:56:29 --> Undefined variable $company_id
+in APPPATH\Controllers\Hr_manage.php on line 249.
+ 1 APPPATH\Controllers\Hr_manage.php(249): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $company_id', 'APPPATH\\Controllers\\Hr_manage.php', 249)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 10:12:25 --> Undefined array key "employees_categories"
+in APPPATH\Views\hr_manage\detailed_attendance_report.php on line 140.
+ 1 APPPATH\Views\hr_manage\detailed_attendance_report.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employees_categories"', 'APPPATH\\Views\\hr_manage\\detailed_attendance_report.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\detailed_attendance_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/detailed_attendance_report', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(262): view('hr_manage/detailed_attendance_report')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 10:18:32 --> Undefined array key "category_name"
+in APPPATH\Views\hr_manage\detailed_attendance_report.php on line 140.
+ 1 APPPATH\Views\hr_manage\detailed_attendance_report.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_name"', 'APPPATH\\Views\\hr_manage\\detailed_attendance_report.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\detailed_attendance_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/detailed_attendance_report', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(265): view('hr_manage/detailed_attendance_report')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-17 10:20:11 --> mysqli_sql_exception: Column 'company_id' in where clause is ambiguous in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `custome...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(255): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-17 10:20:11 --> Column 'company_id' in where clause is ambiguous
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `customers`.*, `attendance_allowed`.`attendance_allowed`
+FROM `customers`
+LEFT JOIN `attendance_allowed` ON `attendance_allowed`.`user_id` = `customers`.`id`
+WHERE `company_id` = :company_id:
+ORDER BY `display_name` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Hr_manage.php(255): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 10:20:24 --> Undefined array key "category_name"
+in APPPATH\Views\hr_manage\detailed_attendance_report.php on line 140.
+ 1 APPPATH\Views\hr_manage\detailed_attendance_report.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category_name"', 'APPPATH\\Views\\hr_manage\\detailed_attendance_report.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\detailed_attendance_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/detailed_attendance_report', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(265): view('hr_manage/detailed_attendance_report')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-17 10:32:16 --> mysqli_sql_exception: Unknown column 'pushed_attendances.pushed_attendances' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `custome...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(274): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-17 10:32:16 --> Unknown column 'pushed_attendances.pushed_attendances' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `customers`.*, `attendance_allowed`.`attendance_allowed`, `employees_categories`.`category_name`, `pushed_attendances`.`pushed_attendances`, `pushed_attendances`.`date`, `pushed_attendances`.`employee_id`, `pushed_attendances`.`day_status`, `pushed_attendances`.`worked_hours`, `pushed_attendances`.`overtime_hours`, `pushed_attendances`.`late_come`, `pushed_attendances`.`deleted`
+FROM `customers`
+LEFT JOIN `attendance_allowed` ON `attendance_allowed`.`user_id` = `customers`.`id`
+LEFT JOIN `employees_categories` ON `employees_categories`.`id` = `customers`.`employee_category`
+LEFT JOIN `pushed_attendances` ON `pushed_attendances`.`employee_id` = `customers`.`id`
+WHERE `attendance_allowed`.`attendance_allowed` = :attendance_allowed.attendance_allowed:
+AND `attendance_allowed`.`company_id` = :attendance_allowed.company_id:
+ORDER BY `display_name` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Hr_manage.php(274): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-17 10:33:00 --> mysqli_sql_exception: Unknown column 'pushed_attendances.date' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `custome...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(273): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-17 10:33:00 --> Unknown column 'pushed_attendances.date' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `customers`.*, `attendance_allowed`.`attendance_allowed`, `employees_categories`.`category_name`, `pushed_attendances`.`date`, `pushed_attendances`.`employee_id`, `pushed_attendances`.`day_status`, `pushed_attendances`.`worked_hours`, `pushed_attendances`.`overtime_hours`, `pushed_attendances`.`late_come`, `pushed_attendances`.`deleted`
+FROM `customers`
+LEFT JOIN `attendance_allowed` ON `attendance_allowed`.`user_id` = `customers`.`id`
+LEFT JOIN `employees_categories` ON `employees_categories`.`id` = `customers`.`employee_category`
+WHERE `attendance_allowed`.`attendance_allowed` = :attendance_allowed.attendance_allowed:
+AND `attendance_allowed`.`company_id` = :attendance_allowed.company_id:
+ORDER BY `display_name` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Hr_manage.php(273): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-17 10:39:50 --> mysqli_sql_exception: Unknown column 'pushed_attendances.pushed_attendances' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `custome...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `custome...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `custome...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `custome...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(263): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-17 10:39:50 --> Unknown column 'pushed_attendances.pushed_attendances' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `customers`.*, `attendance_allowed`.`attendance_allowed`, `employees_categories`.`category_name`, `pushed_attendances`.`pushed_attendances`
+FROM `customers`
+LEFT JOIN `attendance_allowed` ON `attendance_allowed`.`user_id` = `customers`.`id`
+LEFT JOIN `employees_categories` ON `employees_categories`.`id` = `customers`.`employee_category`
+WHERE `attendance_allowed`.`attendance_allowed` = :attendance_allowed.attendance_allowed:
+AND `attendance_allowed`.`company_id` = :attendance_allowed.company_id:
+ORDER BY `display_name` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Hr_manage.php(263): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 10:54:28 --> Call to undefined function get_full_present_of_employee()
+in APPPATH\Views\hr_manage\detailed_attendance_report.php on line 142.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/detailed_attendance_report', [], true)
+ 4 APPPATH\Controllers\Hr_manage.php(272): view('hr_manage/detailed_attendance_report')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-17 11:24:23 --> Call to undefined function get_overtime_of_employee()
+in APPPATH\Views\hr_manage\detailed_attendance_report.php on line 146.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/detailed_attendance_report', [], true)
+ 4 APPPATH\Controllers\Hr_manage.php(272): view('hr_manage/detailed_attendance_report')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

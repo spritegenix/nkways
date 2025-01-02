@@ -1,0 +1,148 @@
+CRITICAL - 2023-06-08 03:43:57 --> Undefined array key "fp_device"
+in APPPATH\Views\settings\printing_and_devices.php on line 519.
+ 1 APPPATH\Views\settings\printing_and_devices.php(519): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fp_device"', 'APPPATH\\Views\\settings\\printing_and_devices.php', 519)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\settings\\printing_and_devices.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('settings/printing_and_devices', [], true)
+ 5 APPPATH\Controllers\Settings.php(2690): view('settings/printing_and_devices', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Settings->printing_and_devices()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 03:52:20 --> syntax error, unexpected floating-point number ".2", expecting "," or ";"
+in APPPATH\Views\settings\printing_and_devices.php on line 528.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('settings/printing_and_devices', [], true)
+ 3 APPPATH\Controllers\Settings.php(2690): view('settings/printing_and_devices', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Settings->printing_and_devices()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 03:53:59 --> syntax error, unexpected single-quoted string ";  ?>">", expecting "," or ";"
+in APPPATH\Views\settings\printing_and_devices.php on line 187.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('settings/printing_and_devices', [], true)
+ 3 APPPATH\Controllers\Settings.php(2690): view('settings/printing_and_devices', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Settings->printing_and_devices()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 03:54:15 --> syntax error, unexpected token "if"
+in APPPATH\Views\settings\printing_and_devices.php on line 175.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('settings/printing_and_devices', [], true)
+ 3 APPPATH\Controllers\Settings.php(2690): view('settings/printing_and_devices', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Settings->printing_and_devices()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 10:47:07 --> Undefined array key "employee_code"
+in APPPATH\Views\hr_manage\attendance.php on line 110.
+ 1 APPPATH\Views\hr_manage\attendance.php(110): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employee_code"', 'APPPATH\\Views\\hr_manage\\attendance.php', 110)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(90): view('hr_manage/attendance')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 10:51:21 --> Undefined array key "user_id"
+in APPPATH\Views\hr_manage\attendance.php on line 104.
+ 1 APPPATH\Views\hr_manage\attendance.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\hr_manage\\attendance.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(96): view('hr_manage/attendance')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 10:52:06 --> Undefined array key "user_id"
+in APPPATH\Views\hr_manage\attendance.php on line 115.
+ 1 APPPATH\Views\hr_manage\attendance.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\hr_manage\\attendance.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(96): view('hr_manage/attendance')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 10:52:53 --> Undefined array key "user_id"
+in APPPATH\Views\hr_manage\attendance.php on line 122.
+ 1 APPPATH\Views\hr_manage\attendance.php(122): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'APPPATH\\Views\\hr_manage\\attendance.php', 122)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(96): view('hr_manage/attendance')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 11:28:58 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/push_attendance', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 11:29:17 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/push_attendance', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 11:33:18 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/push_attendance', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 11:34:44 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/push_attendance', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 11:36:31 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/push_attendance', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 11:37:05 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/push_attendance', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 11:46:16 --> Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Hr_manage.php on line 279.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 11:46:42 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Hr_manage.php on line 279.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-08 11:46:59 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\Hr_manage.php on line 279.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

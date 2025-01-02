@@ -1,0 +1,157 @@
+CRITICAL - 2023-04-29 08:57:39 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:48 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('6', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:49 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('67', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:49 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('677', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:49 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('6777', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:49 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('67777', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:50 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('6777', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:50 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('677', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:50 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('67', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:51 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('6', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:51 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:57:51 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:58:16 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:58:17 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:58:17 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:58:18 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 08:58:28 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 09:03:45 --> Too few arguments to function App\Controllers\Fees_and_payments::get_all_fees_list(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php on line 934 and exactly 3 expected
+in APPPATH\Controllers\Fees_and_payments.php on line 0.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 09:03:56 --> Undefined variable $invoice
+in APPPATH\Controllers\Fees_and_payments.php on line 3061.
+ 1 APPPATH\Controllers\Fees_and_payments.php(3061): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoice', 'APPPATH\\Controllers\\Fees_and_payments.php', 3061)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 09:15:13 --> Undefined variable $invoice
+in APPPATH\Controllers\Fees_and_payments.php on line 3062.
+ 1 APPPATH\Controllers\Fees_and_payments.php(3062): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoice', 'APPPATH\\Controllers\\Fees_and_payments.php', 3062)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 09:24:32 --> Undefined variable $invoice
+in APPPATH\Controllers\Fees_and_payments.php on line 3062.
+ 1 APPPATH\Controllers\Fees_and_payments.php(3062): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoice', 'APPPATH\\Controllers\\Fees_and_payments.php', 3062)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 09:25:43 --> Undefined variable $invoice
+in APPPATH\Controllers\Fees_and_payments.php on line 3062.
+ 1 APPPATH\Controllers\Fees_and_payments.php(3062): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoice', 'APPPATH\\Controllers\\Fees_and_payments.php', 3062)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 09:32:30 --> Undefined variable $invoice
+in APPPATH\Controllers\Fees_and_payments.php on line 3064.
+ 1 APPPATH\Controllers\Fees_and_payments.php(3064): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoice', 'APPPATH\\Controllers\\Fees_and_payments.php', 3064)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3', '7')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 09:32:51 --> Undefined variable $invoice
+in APPPATH\Controllers\Fees_and_payments.php on line 3064.
+ 1 APPPATH\Controllers\Fees_and_payments.php(3064): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoice', 'APPPATH\\Controllers\\Fees_and_payments.php', 3064)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3', '7')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-04-29 09:33:38 --> Undefined variable $pdo
+in APPPATH\Controllers\Fees_and_payments.php on line 3064.
+ 1 APPPATH\Controllers\Fees_and_payments.php(3064): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pdo', 'APPPATH\\Controllers\\Fees_and_payments.php', 3064)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->get_all_fees_list('all', '3', '7')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

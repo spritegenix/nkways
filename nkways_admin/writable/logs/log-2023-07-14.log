@@ -1,0 +1,187 @@
+CRITICAL - 2023-07-14 03:46:20 --> syntax error, unexpected token ";"
+in APPPATH\Views\hr_manage\attendance.php on line 169.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 3 APPPATH\Controllers\Hr_manage.php(122): view('hr_manage/attendance')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 03:47:43 --> Unparenthesized `a ? b : c ? d : e` is not supported. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)`
+in APPPATH\Views\hr_manage\attendance.php on line 169.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-07-14 05:06:36 --> Undefined variable $last_worked_hour
+in APPPATH\Controllers\Hr_manage.php on line 554.
+ 1 APPPATH\Controllers\Hr_manage.php(554): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $last_worked_hour', 'APPPATH\\Controllers\\Hr_manage.php', 554)
+ 2 APPPATH\Controllers\Hr_manage.php(493): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 05:27:18 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 4627.
+ 1 APPPATH\Helpers\apanel_helper.php(4627): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 4627)
+ 2 APPPATH\Controllers\Hr_manage.php(453): user_data('C:\\xampp\\htdocs\\SpriteGenix_app', 'staff_code')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 05:30:18 --> date_diff(): Argument #2 ($targetObject) must be of type DateTimeInterface, bool given
+in APPPATH\Controllers\Hr_manage.php on line 562.
+ 1 APPPATH\Controllers\Hr_manage.php(562): date_diff(Object(DateTime), false)
+ 2 APPPATH\Controllers\Hr_manage.php(493): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 05:30:45 --> date_diff(): Argument #2 ($targetObject) must be of type DateTimeInterface, bool given
+in APPPATH\Controllers\Hr_manage.php on line 562.
+ 1 APPPATH\Controllers\Hr_manage.php(562): date_diff(Object(DateTime), false)
+ 2 APPPATH\Controllers\Hr_manage.php(493): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 05:32:19 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/manual_push_punch', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 05:35:04 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/manual_push_punch', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 05:35:05 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/manual_push_punch', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 06:28:42 --> Class "App\Controllers\DateTime" not found
+in APPPATH\Controllers\Testing.php on line 72.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->send_sms_oman()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 06:30:17 --> Class "App\Controllers\Time" not found
+in APPPATH\Controllers\Testing.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->send_sms_oman()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 06:30:27 --> Class "Time" not found
+in APPPATH\Controllers\Testing.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->send_sms_oman()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 06:30:53 --> Undefined variable $startingTime
+in APPPATH\Controllers\Testing.php on line 77.
+ 1 APPPATH\Controllers\Testing.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $startingTime', 'APPPATH\\Controllers\\Testing.php', 77)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->send_sms_oman()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 06:31:12 --> Call to a member function diff() on string
+in APPPATH\Controllers\Testing.php on line 77.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->send_sms_oman()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 06:32:32 --> date(): Argument #2 ($timestamp) must be of type ?int, string given
+in APPPATH\Controllers\Testing.php on line 72.
+ 1 APPPATH\Controllers\Testing.php(72): date('H:i:s', '09:00:00')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->send_sms_oman()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 06:33:08 --> Invalid numeric literal
+in APPPATH\Controllers\Testing.php on line 69.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Testing.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Testing')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Testing')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Testing', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 06:33:53 --> Call to a member function diff() on string
+in APPPATH\Controllers\Testing.php on line 75.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->send_sms_oman()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:52:43 --> Call to undefined function views()
+in APPPATH\Views\hr_manage\attendance.php on line 141.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 4 APPPATH\Controllers\Hr_manage.php(123): view('hr_manage/attendance')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance('logs')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:53:22 --> Invalid file: "attendance-logs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('attendance-logs.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('attendance-logs', [], true)
+ 3 APPPATH\Views\hr_manage\attendance.php(141): view('attendance-logs')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 7 APPPATH\Controllers\Hr_manage.php(123): view('hr_manage/attendance')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance('logs')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:54:07 --> Invalid file: "attendance-logs.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('attendance-logs.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('attendance-logs', [], true)
+ 3 APPPATH\Views\hr_manage\attendance.php(141): view('attendance-logs')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 7 APPPATH\Controllers\Hr_manage.php(123): view('hr_manage/attendance')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance('logs')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:54:58 --> Undefined array key "display_name"
+in APPPATH\Views\hr_manage\attendance-logs.php on line 31.
+ 1 APPPATH\Views\hr_manage\attendance-logs.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "display_name"', 'APPPATH\\Views\\hr_manage\\attendance-logs.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance-logs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance-logs', [], true)
+ 5 APPPATH\Views\hr_manage\attendance.php(141): view('hr_manage/attendance-logs')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 9 APPPATH\Controllers\Hr_manage.php(123): view('hr_manage/attendance')
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance('logs')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-14 08:56:17 --> Undefined array key "employee_code"
+in APPPATH\Views\hr_manage\attendance-pushed.php on line 86.
+ 1 APPPATH\Views\hr_manage\attendance-pushed.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employee_code"', 'APPPATH\\Views\\hr_manage\\attendance-pushed.php', 86)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance-pushed.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance-pushed', [], true)
+ 5 APPPATH\Views\hr_manage\attendance.php(139): view('hr_manage/attendance-pushed')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance', [], true)
+ 9 APPPATH\Controllers\Hr_manage.php(123): view('hr_manage/attendance')
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

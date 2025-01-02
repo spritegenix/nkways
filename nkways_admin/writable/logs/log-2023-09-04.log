@@ -1,0 +1,96 @@
+CRITICAL - 2023-09-04 06:27:05 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 612.
+ 1 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(400): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 06:31:58 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 612.
+ 1 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(400): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 06:46:15 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 612.
+ 1 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(400): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 07:40:55 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 612.
+ 1 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(400): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 07:45:02 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 615.
+ 1 APPPATH\Controllers\Hr_manage.php(537): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(401): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 07:46:16 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 615.
+ 1 APPPATH\Controllers\Hr_manage.php(537): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(401): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 07:48:16 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 615.
+ 1 APPPATH\Controllers\Hr_manage.php(537): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(401): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 07:48:53 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 615.
+ 1 APPPATH\Controllers\Hr_manage.php(537): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(401): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 07:49:51 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 605.
+ 1 APPPATH\Controllers\Hr_manage.php(527): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(391): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 07:54:23 --> Unsupported operand types: int - string
+in APPPATH\Controllers\Hr_manage.php on line 617.
+ 1 APPPATH\Controllers\Hr_manage.php(539): App\Controllers\Hr_manage->reset_logs_data([...])
+ 2 APPPATH\Controllers\Hr_manage.php(402): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 11:21:49 --> syntax error, unexpected token "else", expecting "function" or "const"
+in APPPATH\Controllers\Home.php on line 270.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-04 11:22:27 --> Undefined variable $user
+in APPPATH\Controllers\User_master.php on line 26.
+ 1 APPPATH\Controllers\User_master.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\User_master.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User_master->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_master))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

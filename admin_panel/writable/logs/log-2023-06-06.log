@@ -1,0 +1,124 @@
+CRITICAL - 2023-06-06 03:34:03 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Payroll.php on line 1089.
+ 1 APPPATH\Controllers\Payroll.php(1089): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Payroll.php', 1089)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->save_manual_payroll_field_values()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 04:06:28 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Payroll.php on line 1089.
+ 1 APPPATH\Controllers\Payroll.php(1089): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Payroll.php', 1089)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->save_manual_payroll_field_values()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 04:09:41 --> Undefined array key "payroll_items_id"
+in APPPATH\Views\payroll\edit.php on line 277.
+ 1 APPPATH\Views\payroll\edit.php(277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "payroll_items_id"', 'APPPATH\\Views\\payroll\\edit.php', 277)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/edit', [], true)
+ 5 APPPATH\Controllers\Payroll.php(339): view('payroll/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->edit('5')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 06:14:44 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Payroll.php on line 250.
+ 1 APPPATH\Controllers\Payroll.php(250): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'APPPATH\\Controllers\\Payroll.php', 250)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->add_payroll()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 06:18:25 --> Array to string conversion
+in APPPATH\Views\payroll\create_payroll.php on line 104.
+ 1 APPPATH\Views\payroll\create_payroll.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\payroll\\create_payroll.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 5 APPPATH\Controllers\Payroll.php(209): view('payroll/create_payroll')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 06:18:45 --> Array to string conversion
+in APPPATH\Views\payroll\create_payroll.php on line 104.
+ 1 APPPATH\Views\payroll\create_payroll.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\payroll\\create_payroll.php', 104)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 5 APPPATH\Controllers\Payroll.php(209): view('payroll/create_payroll')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 10:27:50 --> syntax error, unexpected token ";"
+in APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code on line 1.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 4 APPPATH\Controllers\Payroll.php(209): view('payroll/create_payroll')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 10:57:17 --> Undefined variable $Incentives
+in APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code on line 1.
+ 1 APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Incentives', 'APPPATH\\Views\\payroll\\create_payroll.php(228) : eval()\'d code', 1)
+ 2 APPPATH\Views\payroll\create_payroll.php(228): eval()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(209): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 11:27:21 --> Undefined variable $HsdsdR
+in APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code on line 1.
+ 1 APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $HsdsdR', 'APPPATH\\Views\\payroll\\create_payroll.php(228) : eval()\'d code', 1)
+ 2 APPPATH\Views\payroll\create_payroll.php(228): eval()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(209): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 11:27:24 --> Undefined variable $HsdsdR
+in APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code on line 1.
+ 1 APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $HsdsdR', 'APPPATH\\Views\\payroll\\create_payroll.php(228) : eval()\'d code', 1)
+ 2 APPPATH\Views\payroll\create_payroll.php(228): eval()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(209): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 11:27:25 --> Undefined variable $HsdsdR
+in APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code on line 1.
+ 1 APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $HsdsdR', 'APPPATH\\Views\\payroll\\create_payroll.php(228) : eval()\'d code', 1)
+ 2 APPPATH\Views\payroll\create_payroll.php(228): eval()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(209): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-06 11:31:33 --> Undefined variable $Add_on
+in APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code on line 1.
+ 1 APPPATH\Views\payroll\create_payroll.php(228) : eval()'d code(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Add_on', 'APPPATH\\Views\\payroll\\create_payroll.php(228) : eval()\'d code', 1)
+ 2 APPPATH\Views\payroll\create_payroll.php(228): eval()
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(209): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

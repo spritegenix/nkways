@@ -1,0 +1,444 @@
+CRITICAL - 2023-06-03 05:27:54 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/4', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:27:56 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/4', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:27:59 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/4', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:28:03 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/4', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:28:21 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/4', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:50:42 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/1', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:50:44 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/1', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:50:48 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/4', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:50:50 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/4', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:51:08 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/4', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 05:51:09 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/4', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 06:38:06 --> Undefined constant "Basic"
+in APPPATH\Views\payroll\create_payroll.php(195) : eval()'d code on line 1.
+ 1 APPPATH\Views\payroll\create_payroll.php(195): eval()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 5 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 06:45:05 --> Call to undefined function preg_replace_all()
+in APPPATH\Views\payroll\create_payroll.php on line 196.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 4 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 06:59:44 --> preg_replace(): No ending delimiter '/' found
+in APPPATH\Views\payroll\create_payroll.php on line 196.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): No ending delimiter \'/\' found', 'APPPATH\\Views\\payroll\\create_payroll.php', 196)
+ 2 APPPATH\Views\payroll\create_payroll.php(196): preg_replace('/\\b[A-Za-z]', '$$1', 'Basic*20/100')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 07:00:20 --> Undefined variable $string
+in APPPATH\Views\payroll\create_payroll.php on line 196.
+ 1 APPPATH\Views\payroll\create_payroll.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $string', 'APPPATH\\Views\\payroll\\create_payroll.php', 196)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 5 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 07:08:04 --> preg_replace(): Compilation failed: quantifier does not follow a repeatable item at offset 3
+in APPPATH\Views\payroll\create_payroll.php on line 196.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: quantifier does not follow a repeatable item at offset 3', 'APPPATH\\Views\\payroll\\create_payroll.php', 196)
+ 2 APPPATH\Views\payroll\create_payroll.php(196): preg_replace('/\\b(+[A-Za-z]+)\\b/', '$$1', 'Basic*20/100')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 07:16:17 --> preg_replace(): Compilation failed: quantifier does not follow a repeatable item at offset 5
+in APPPATH\Views\payroll\create_payroll.php on line 196.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: quantifier does not follow a repeatable item at offset 5', 'APPPATH\\Views\\payroll\\create_payroll.php', 196)
+ 2 APPPATH\Views\payroll\create_payroll.php(196): preg_replace('/\\b(\\A+)\\b/', '$$1', 'Basic*20/100')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 07:30:16 --> preg_replace(): Compilation failed: quantifier does not follow a repeatable item at offset 2
+in APPPATH\Views\payroll\create_payroll.php on line 196.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: quantifier does not follow a repeatable item at offset 2', 'APPPATH\\Views\\payroll\\create_payroll.php', 196)
+ 2 APPPATH\Views\payroll\create_payroll.php(196): preg_replace('/\\b+(\\w+)\\b/', '$$1', 'Basic*20/100')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 07:32:37 --> preg_replace(): Compilation failed: quantifier does not follow a repeatable item at offset 3
+in APPPATH\Views\payroll\create_payroll.php on line 196.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_replace(): Compilation failed: quantifier does not follow a repeatable item at offset 3', 'APPPATH\\Views\\payroll\\create_payroll.php', 196)
+ 2 APPPATH\Views\payroll\create_payroll.php(196): preg_replace('/\\b(+\\w+)\\b/', '$$1', 'Basic*20/100')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 6 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 08:19:39 --> Undefined variable $modifiedStrin
+in APPPATH\Views\payroll\create_payroll.php on line 198.
+ 1 APPPATH\Views\payroll\create_payroll.php(198): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $modifiedStrin', 'APPPATH\\Views\\payroll\\create_payroll.php', 198)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 5 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 08:22:04 --> Unsupported operand types: string - string
+in APPPATH\Views\payroll\create_payroll.php(198) : eval()'d code on line 1.
+ 1 APPPATH\Views\payroll\create_payroll.php(198): eval()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 5 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 08:22:48 --> Unsupported operand types: int + string
+in APPPATH\Views\payroll\create_payroll.php on line 201.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 4 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 08:25:28 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('payroll/save_formula/1', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 08:50:10 --> Undefined variable $total_basic
+in APPPATH\Views\payroll\create_payroll.php on line 247.
+ 1 APPPATH\Views\payroll\create_payroll.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_basic', 'APPPATH\\Views\\payroll\\create_payroll.php', 247)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\create_payroll.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 5 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-06-03 08:54:00 --> mysqli_sql_exception: Column 'total_salary' cannot be null in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Payroll.php(241): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Payroll->add_payroll()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-06-03 08:54:00 --> Column 'total_salary' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `payroll_table` (`company_id`, `financial_year`, `month`, `total_salary`, `created_at`) VALUES (:company_id:, :financial_year:, :month:, :total_salary:, :created_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Payroll.php(241): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->add_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 08:59:27 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Payroll.php on line 257.
+ 1 APPPATH\Controllers\Payroll.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Payroll.php', 257)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->add_payroll()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 09:04:52 --> Undefined array key "net_salary"
+in APPPATH\Models\PayrollitemsModel.php on line 13.
+ 1 APPPATH\Models\PayrollitemsModel.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "net_salary"', 'APPPATH\\Models\\PayrollitemsModel.php', 13)
+ 2 SYSTEMPATH\BaseModel.php(1562): App\Models\PayrollitemsModel->beforeInsert([...])
+ 3 SYSTEMPATH\BaseModel.php(779): CodeIgniter\BaseModel->trigger('beforeInsert', [...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Payroll.php(264): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->add_payroll()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 09:07:26 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Payroll.php on line 257.
+ 1 APPPATH\Controllers\Payroll.php(257): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Payroll.php', 257)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->add_payroll()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 09:10:26 --> syntax error, unexpected token "{"
+in APPPATH\Views\payroll\create_payroll.php on line 222.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/create_payroll', [], true)
+ 3 APPPATH\Controllers\Payroll.php(204): view('payroll/create_payroll')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->create_payroll()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:29:52 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\payroll_helper.php on line 39.
+ 1 APPPATH\Helpers\payroll_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\payroll_helper.php', 39)
+ 2 APPPATH\Views\payroll\templates\payroll_slip_design.php(89): salary_items_array_by_payrollid('3', '1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\templates\\payroll_slip_design.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/templates/payroll_slip_design', [], true)
+ 6 APPPATH\Controllers\Payroll.php(918): view('payroll/templates/payroll_slip_design', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->get_payroll_slip('3', 'view')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:29:52 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\payroll_helper.php on line 39.
+ 1 APPPATH\Helpers\payroll_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\payroll_helper.php', 39)
+ 2 APPPATH\Views\payroll\templates\payroll_slip_design.php(89): salary_items_array_by_payrollid('2', '1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\templates\\payroll_slip_design.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/templates/payroll_slip_design', [], true)
+ 6 APPPATH\Controllers\Payroll.php(918): view('payroll/templates/payroll_slip_design', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->get_payroll_slip('2', 'view')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:29:52 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\payroll_helper.php on line 39.
+ 1 APPPATH\Helpers\payroll_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\payroll_helper.php', 39)
+ 2 APPPATH\Views\payroll\templates\payroll_slip_design.php(89): salary_items_array_by_payrollid('1', '1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\templates\\payroll_slip_design.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/templates/payroll_slip_design', [], true)
+ 6 APPPATH\Controllers\Payroll.php(918): view('payroll/templates/payroll_slip_design', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->get_payroll_slip('1', 'view')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:30:00 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\payroll_helper.php on line 39.
+ 1 APPPATH\Helpers\payroll_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\payroll_helper.php', 39)
+ 2 APPPATH\Views\payroll\edit.php(116): salary_items_array_by_payrollid('3', '1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\edit.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/edit', [], true)
+ 6 APPPATH\Controllers\Payroll.php(331): view('payroll/edit')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->edit('3')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:30:01 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\payroll_helper.php on line 39.
+ 1 APPPATH\Helpers\payroll_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\payroll_helper.php', 39)
+ 2 APPPATH\Views\payroll\edit.php(116): salary_items_array_by_payrollid('2', '1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\edit.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/edit', [], true)
+ 6 APPPATH\Controllers\Payroll.php(331): view('payroll/edit')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->edit('2')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:30:02 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\payroll_helper.php on line 39.
+ 1 APPPATH\Helpers\payroll_helper.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\payroll_helper.php', 39)
+ 2 APPPATH\Views\payroll\edit.php(116): salary_items_array_by_payrollid('1', '1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\edit.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/edit', [], true)
+ 6 APPPATH\Controllers\Payroll.php(331): view('payroll/edit')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->edit('1')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:35:21 --> Undefined array key "formula"
+in APPPATH\Views\payroll\edit.php on line 236.
+ 1 APPPATH\Views\payroll\edit.php(236): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "formula"', 'APPPATH\\Views\\payroll\\edit.php', 236)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/edit', [], true)
+ 5 APPPATH\Controllers\Payroll.php(332): view('payroll/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->edit('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:40:31 --> Undefined variable $p_items_id
+in APPPATH\Controllers\Payroll.php on line 277.
+ 1 APPPATH\Controllers\Payroll.php(277): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $p_items_id', 'APPPATH\\Controllers\\Payroll.php', 277)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->add_payroll()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:44:28 --> Undefined array key "field_name"
+in APPPATH\Views\payroll\edit.php on line 126.
+ 1 APPPATH\Views\payroll\edit.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "field_name"', 'APPPATH\\Views\\payroll\\edit.php', 126)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/edit', [], true)
+ 5 APPPATH\Controllers\Payroll.php(333): view('payroll/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:44:55 --> Undefined array key "field_name"
+in APPPATH\Views\payroll\edit.php on line 126.
+ 1 APPPATH\Views\payroll\edit.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "field_name"', 'APPPATH\\Views\\payroll\\edit.php', 126)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/edit', [], true)
+ 5 APPPATH\Controllers\Payroll.php(333): view('payroll/edit')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->edit('10')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:52:18 --> syntax error, unexpected token "<"
+in APPPATH\Views\payroll\edit.php on line 240.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/edit', [], true)
+ 3 APPPATH\Controllers\Payroll.php(335): view('payroll/edit')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->edit('11')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 10:58:43 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Payroll.php on line 438.
+ 1 APPPATH\Controllers\Payroll.php(438): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Payroll.php', 438)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->edit_payroll('11')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 11:43:14 --> Undefined variable $total_74
+in APPPATH\Views\payroll\templates\payroll_slip_design.php on line 165.
+ 1 APPPATH\Views\payroll\templates\payroll_slip_design.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_74', 'APPPATH\\Views\\payroll\\templates\\payroll_slip_design.php', 165)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\templates\\payroll_slip_design.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/templates/payroll_slip_design', [], true)
+ 5 APPPATH\Controllers\Payroll.php(925): view('payroll/templates/payroll_slip_design', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->get_payroll_slip('12', 'view')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-03 11:45:08 --> Undefined variable $total_74
+in APPPATH\Views\payroll\templates\payroll_slip_design.php on line 165.
+ 1 APPPATH\Views\payroll\templates\payroll_slip_design.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $total_74', 'APPPATH\\Views\\payroll\\templates\\payroll_slip_design.php', 165)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payroll\\templates\\payroll_slip_design.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payroll/templates/payroll_slip_design', [], true)
+ 5 APPPATH\Controllers\Payroll.php(925): view('payroll/templates/payroll_slip_design', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payroll->get_payroll_slip('12', 'view')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payroll))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

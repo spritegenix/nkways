@@ -1,0 +1,9 @@
+CRITICAL - 2023-07-15 04:15:10 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 4627.
+ 1 APPPATH\Helpers\apanel_helper.php(4627): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 4627)
+ 2 APPPATH\Controllers\Hr_manage.php(516): user_data('C:\\xampp\\htdocs\\SpriteGenix_app', 'employee_category')
+ 3 APPPATH\Controllers\Hr_manage.php(732): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->delete_punch('144')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

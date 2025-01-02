@@ -1,0 +1,44 @@
+CRITICAL - 2023-05-01 04:32:29 --> Undefined variable $user
+in APPPATH\Views\testing\thermal.php on line 207.
+ 1 APPPATH\Views\testing\thermal.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\testing\\thermal.php', 207)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing\\thermal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing/thermal', [], true)
+ 5 APPPATH\Controllers\Testing.php(69): view('testing/thermal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->thermal()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-01 04:33:14 --> Undefined variable $user
+in APPPATH\Views\testing\thermal.php on line 207.
+ 1 APPPATH\Views\testing\thermal.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\testing\\thermal.php', 207)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing\\thermal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing/thermal', [], true)
+ 5 APPPATH\Controllers\Testing.php(80): view('testing/thermal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->thermal()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-01 04:34:55 --> Undefined variable $user
+in APPPATH\Views\testing\thermal.php on line 207.
+ 1 APPPATH\Views\testing\thermal.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Views\\testing\\thermal.php', 207)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing\\thermal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing/thermal', [], true)
+ 5 APPPATH\Controllers\Testing.php(86): view('testing/thermal')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->thermal()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-01 04:35:05 --> Undefined variable $invoice_data
+in APPPATH\Views\testing\thermal.php on line 209.
+ 1 APPPATH\Views\testing\thermal.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoice_data', 'APPPATH\\Views\\testing\\thermal.php', 209)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\testing\\thermal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('testing/thermal', [], true)
+ 5 APPPATH\Controllers\Testing.php(86): view('testing/thermal', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Testing->thermal()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Testing))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

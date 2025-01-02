@@ -1,0 +1,16 @@
+.no_print{
+	display: none!important;
+}
+
+*{
+	background-color: transparent!important;
+}
+
+.sorticon:after{
+	content:'';
+}
+
+table td, table th{
+	text-align: center;
+	border: 1px solid #a2a4a6;
+}

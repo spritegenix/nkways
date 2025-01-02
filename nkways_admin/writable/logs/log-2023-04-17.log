@@ -1,0 +1,11 @@
+CRITICAL - 2023-04-17 08:49:01 --> Too few arguments to function current_class_of_student(), 1 passed in C:\xampp\htdocs\SpriteGenix_app\app\Views\payments\receipt_design2.php on line 102 and exactly 2 expected
+in APPPATH\Helpers\school_helper.php on line 739.
+ 1 APPPATH\Views\payments\receipt_design2.php(102): current_class_of_student('3898')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payments\\receipt_design2.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payments/receipt_design2', [], true)
+ 5 APPPATH\Controllers\Payments.php(91): view('payments/receipt_design2', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('54', 'view')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

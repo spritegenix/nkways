@@ -1,0 +1,6 @@
+CRITICAL - 2023-04-11 09:26:42 --> Cannot use App\Models\NotificationsModel as NotificationsModel because the name is already in use
+in APPPATH\Helpers\crm_helper.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-04-11 09:26:42 --> Cannot use App\Models\NotificationsModel as NotificationsModel because the name is already in use
+in APPPATH\Helpers\crm_helper.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

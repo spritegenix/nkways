@@ -1,0 +1,31 @@
+ @page {
+    margin: 0px 10px 0px 10px !important;
+    padding: 0px 0px 0px 0px !important; 
+}
+
+h5{
+  font-size: 14px!important;
+}
+
+h3{
+  font-size: 16px!important;
+}
+
+h6{
+  font-size: 12px!important;
+}
+
+.invoice_page p{
+  font-size: 12px;
+}
+
+.company_logo {
+    height: 90px;
+}
+
+tr td{
+  font-size: 12px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+

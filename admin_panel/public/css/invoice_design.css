@@ -1,0 +1,13 @@
+.text-right{
+	text-align: right!important;
+}
+.border-start-invoice {
+    border-left: 1px solid black!important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid black!important;
+}
+.border-end {
+    border-right: 1px solid black!important;
+}

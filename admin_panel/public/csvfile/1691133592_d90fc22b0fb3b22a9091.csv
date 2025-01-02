@@ -1,0 +1,4 @@
+Product Name,Unit,Sub Unit,Conversion Unit Rate,Stock,Tax,MRP(optional),Sale Margin(optional),Purchase Margin(optional),Sale Price,Sale Tax,Purchased Price,Purchase Tax,Description,Brand,Category,Sub Category,Barcode,Type,Product Code,HSNC/GTIN/UPC/EAN/JAN/ISBN,Batch No,Bin Location
+Banana,Box,Pcs,10,0,0,100,0,0,100,with,100,with,,General,Fruites,,"	000000000000",product,,,,
+Bisleri,Box,,0,0,0,100,0,0,100,with,100,with,,General,Fruites,,"	000000000000",product,,,,
+zzzzz,Mtr,Dzn,100,0,0,12,0,0,12,with,12,with,,General,Fruites,,"	000000000000",product,,,,

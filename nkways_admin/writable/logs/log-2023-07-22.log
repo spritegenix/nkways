@@ -1,0 +1,100 @@
+CRITICAL - 2023-07-22 06:55:53 --> Invalid file: "SpriteGenix_special_reports/day_end_summary.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('SpriteGenix_special_reports/day_end_summary.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('SpriteGenix_special_reports/day_end_summary', [], true)
+ 3 APPPATH\Controllers\SpriteGenix_special_reports.php(67): view('SpriteGenix_special_reports/day_end_summary', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SpriteGenix_special_reports->day_end_summary()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SpriteGenix_special_reports))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 06:56:52 --> Undefined variable $day_book_data
+in APPPATH\Views\SpriteGenix_special_reports\day_end_summary.php on line 146.
+ 1 APPPATH\Views\SpriteGenix_special_reports\day_end_summary.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $day_book_data', 'APPPATH\\Views\\SpriteGenix_special_reports\\day_end_summary.php', 146)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\SpriteGenix_special_reports\\day_end_summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('SpriteGenix_special_reports/day_end_summary', [], true)
+ 5 APPPATH\Controllers\SpriteGenix_special_reports.php(67): view('SpriteGenix_special_reports/day_end_summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SpriteGenix_special_reports->day_end_summary()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SpriteGenix_special_reports))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 06:57:32 --> Undefined variable $debit_sum
+in APPPATH\Views\SpriteGenix_special_reports\day_end_summary.php on line 154.
+ 1 APPPATH\Views\SpriteGenix_special_reports\day_end_summary.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $debit_sum', 'APPPATH\\Views\\SpriteGenix_special_reports\\day_end_summary.php', 154)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\SpriteGenix_special_reports\\day_end_summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('SpriteGenix_special_reports/day_end_summary', [], true)
+ 5 APPPATH\Controllers\SpriteGenix_special_reports.php(67): view('SpriteGenix_special_reports/day_end_summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SpriteGenix_special_reports->day_end_summary()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SpriteGenix_special_reports))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-22 08:57:25 --> mysqli_sql_exception: Table 'SpriteGenix_app_db.main_companies' doesn't exist in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Helpers\auth_helper.php(16): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Reports_selector.php(39): app_status('1')
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Reports_selector->index()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports_selector))
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-22 08:57:25 --> Table 'SpriteGenix_app_db.main_companies' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `main_companies`
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Helpers\auth_helper.php(16): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Reports_selector.php(39): app_status('1')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports_selector->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports_selector))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-22 08:58:19 --> mysqli_sql_exception: Table 'SpriteGenix_app_db.log' doesn't exist in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Helpers\apanel_helper.php(4584): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Users.php(90): add_log(Array)
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Users->login()
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#12 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2023-07-22 08:58:19 --> Table 'SpriteGenix_app_db.log' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `log` (`user_id`, `action`, `ip`, `mac`, `created_at`, `updated_at`, `company_id`) VALUES (:user_id:, :action:, :ip:, :mac:, :created_at:, :updated_at:, :company_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Helpers\apanel_helper.php(4584): CodeIgniter\BaseModel->save([...])
+ 7 APPPATH\Controllers\Users.php(90): add_log([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->login()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-22 11:50:39 --> Undefined variable $myid
+in APPPATH\Views\invoices\invoices_all.php on line 211.
+ 1 APPPATH\Views\invoices\invoices_all.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myid', 'APPPATH\\Views\\invoices\\invoices_all.php', 211)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\invoices\\invoices_all.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('invoices/invoices_all', [], true)
+ 5 APPPATH\Controllers\Invoices.php(147): view('invoices/invoices_all', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->sales()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

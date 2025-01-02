@@ -1,0 +1,123 @@
+CRITICAL - 2023-07-24 05:23:17 --> Undefined array key "from"
+in APPPATH\Views\SpriteGenix_special_reports\day_end_summary.php on line 6.
+ 1 APPPATH\Views\SpriteGenix_special_reports\day_end_summary.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "from"', 'APPPATH\\Views\\SpriteGenix_special_reports\\day_end_summary.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\SpriteGenix_special_reports\\day_end_summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('SpriteGenix_special_reports/day_end_summary', [], true)
+ 5 APPPATH\Controllers\SpriteGenix_special_reports.php(67): view('SpriteGenix_special_reports/day_end_summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SpriteGenix_special_reports->day_end_summary()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SpriteGenix_special_reports))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 05:23:34 --> Undefined array key "from"
+in APPPATH\Views\SpriteGenix_special_reports\day_end_summary.php on line 6.
+ 1 APPPATH\Views\SpriteGenix_special_reports\day_end_summary.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "from"', 'APPPATH\\Views\\SpriteGenix_special_reports\\day_end_summary.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\SpriteGenix_special_reports\\day_end_summary.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('SpriteGenix_special_reports/day_end_summary', [], true)
+ 5 APPPATH\Controllers\SpriteGenix_special_reports.php(67): view('SpriteGenix_special_reports/day_end_summary', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\SpriteGenix_special_reports->day_end_summary()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SpriteGenix_special_reports))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 05:36:43 --> Undefined variable $view_type
+in APPPATH\Views\reports\activity_logs.php on line 72.
+ 1 APPPATH\Views\reports\activity_logs.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_type', 'APPPATH\\Views\\reports\\activity_logs.php', 72)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reports\\activity_logs.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/activity_logs', [], true)
+ 5 APPPATH\Controllers\Reports.php(1311): view('reports/activity_logs', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->activity_logs()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 05:57:32 --> Undefined variable $InvoiceModel
+in APPPATH\Controllers\Reports.php on line 1300.
+ 1 APPPATH\Controllers\Reports.php(1300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $InvoiceModel', 'APPPATH\\Controllers\\Reports.php', 1300)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->activity_logs()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 05:57:44 --> Undefined variable $InvoiceModel
+in APPPATH\Controllers\Reports.php on line 1300.
+ 1 APPPATH\Controllers\Reports.php(1300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $InvoiceModel', 'APPPATH\\Controllers\\Reports.php', 1300)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->activity_logs()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 06:08:14 --> Undefined array key "allow_receipt_date"
+in APPPATH\Helpers\apanel_helper.php on line 4394.
+ 1 APPPATH\Helpers\apanel_helper.php(4394): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "allow_receipt_date"', 'APPPATH\\Helpers\\apanel_helper.php', 4394)
+ 2 APPPATH\Views\settings\preferences.php(176): get_setting('10', 'allow_receipt_date')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\settings\\preferences.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('settings/preferences', [], true)
+ 6 APPPATH\Controllers\Settings.php(653): view('settings/preferences', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Settings->preferences()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-24 06:25:34 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+AND   (
+`invoice_type` = 'sales'
+OR `invoice_type` = 'sales_return'
+OR `inv...' at line 5 in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Invoices.php(135): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Invoices->sales()
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-24 06:25:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')
+AND   (
+`invoice_type` = 'sales'
+OR `invoice_type` = 'sales_return'
+OR `inv...' at line 5
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `invoices`
+WHERE `invoice_date` BETWEEN \'2023-05-04\' AND \'2023-07-24\'
+AND   (
+ )
+AND   (
+`invoice_type` = :invoice_type:
+OR `invoice_type` = :invoice_type.1:
+OR `invoice_type` = :invoice_type.2:
+OR `invoice_type` = :invoice_type.3:
+OR `invoice_type` = :invoice_type.4:
+OR `invoice_type` = :invoice_type.5:
+ )
+AND `company_id` = :company_id:
+AND `financial_year` = :financial_year:
+ORDER BY `id` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Invoices.php(135): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->sales()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 06:58:01 --> Undefined variable $di
+in APPPATH\Views\reports\day_book.php on line 147.
+ 1 APPPATH\Views\reports\day_book.php(147): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $di', 'APPPATH\\Views\\reports\\day_book.php', 147)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reports\\day_book.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/day_book', [], true)
+ 5 APPPATH\Controllers\Reports.php(101): view('reports/day_book', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-24 11:10:04 --> Array callback must have exactly two elements
+in APPPATH\Controllers\Reports.php on line 79.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->index()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
