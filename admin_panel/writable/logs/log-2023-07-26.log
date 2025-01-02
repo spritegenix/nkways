@@ -1,9 +1,0 @@
-CRITICAL - 2023-07-26 10:45:04 --> Invalid file: "reports/fees_outstanding_statement.php"
-in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
- 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reports/fees_outstanding_statement.php')
- 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/fees_outstanding_statement', [], true)
- 3 APPPATH\Controllers\Reports.php(1153): view('reports/fees_outstanding_statement', [...])
- 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->fees_outstanding_statement()
- 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
- 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
- 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
