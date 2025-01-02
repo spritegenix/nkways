@@ -24,6 +24,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Please complete the form and try again.";
         exit;
     }
+    // Check for required fields
+    if (empty($name) || empty($subject) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        http_response_code(400);
+        echo "Please complete the form and try again.";
+        exit;
+    }
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
