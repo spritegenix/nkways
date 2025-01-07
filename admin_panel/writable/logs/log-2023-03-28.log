@@ -1,0 +1,99 @@
+CRITICAL - 2023-03-28 03:49:58 --> Uncaught Error: Call to undefined function script_version() in C:\xampp\htdocs\SpriteGenix_app\app\Views\errors\html\error_404.php:97
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(277): include()
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(994): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-28 03:51:48 --> Uncaught Error: Call to undefined function script_version() in C:\xampp\htdocs\SpriteGenix_app\app\Views\errors\html\error_404.php:99
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(277): include()
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(994): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-28 03:52:27 --> Uncaught Error: Call to undefined function script_version() in C:\xampp\htdocs\SpriteGenix_app\app\Views\errors\html\error_404.php:99
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(277): include()
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(994): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-28 03:52:29 --> Uncaught Error: Call to undefined function script_version() in C:\xampp\htdocs\SpriteGenix_app\app\Views\errors\html\error_404.php:99
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(277): include()
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(280): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Debug\Exceptions.php(151): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#4 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\PageNotFoundException
+Page Not Found
+#0 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(994): CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(387): CodeIgniter\CodeIgniter->display404errors(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#2 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#3 {main}
+in APPPATH\Views\errors\html\error_404.php on line 99.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-28 08:49:25 --> Class "App\Controllers\CompanySettings" not found
+in APPPATH\Controllers\Products.php on line 2095.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->add_results_page()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 11:45:23 --> Trying to access array offset on value of type null
+in APPPATH\Views\invoices\invoice_download.php on line 37.
+ 1 APPPATH\Views\invoices\invoice_download.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Views\\invoices\\invoice_download.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\invoices\\invoice_download.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('invoices/invoice_download', [], true)
+ 5 APPPATH\Controllers\Invoices.php(1417): view('invoices/invoice_download', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->download('9')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 11:46:25 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Invoices.php on line 1395.
+ 1 APPPATH\Controllers\Invoices.php(1395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Invoices.php', 1395)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->download('fonts', 'sourcesans', 'sourcesanspro-regular-webfont.ttf')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-28 11:48:57 --> Trying to access array offset on value of type null
+in APPPATH\Controllers\Invoices.php on line 1395.
+ 1 APPPATH\Controllers\Invoices.php(1395): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Controllers\\Invoices.php', 1395)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->download('fonts', 'sourcesans', 'sourcesanspro-regular-webfont.ttf')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

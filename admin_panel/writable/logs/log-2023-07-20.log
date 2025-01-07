@@ -1,0 +1,156 @@
+CRITICAL - 2023-07-20 04:49:07 --> Invalid file: "reports/item_reports.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reports/item_reports.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/item_reports', [], true)
+ 3 APPPATH\Controllers\Reports.php(647): view('reports/item_reports', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->item_reports()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 05:29:55 --> Invalid file: "reports/item_reports.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reports/item_reports.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/item_reports', [], true)
+ 3 APPPATH\Controllers\Reports.php(647): view('reports/item_reports', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->item_reports()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 05:30:06 --> You should provide a barcode string.
+in FCPATH\vendor\picqer\php-barcode-generator\src\Types\TypeCode128.php on line 136.
+ 1 FCPATH\vendor\picqer\php-barcode-generator\src\BarcodeGenerator.php(103): Picqer\Barcode\Types\TypeCode128->getBarcodeData('C:\\xampp\\htdocs\\SpriteGenix_app')
+ 2 FCPATH\vendor\picqer\php-barcode-generator\src\BarcodeGeneratorPNG.php(54): Picqer\Barcode\BarcodeGenerator->getBarcodeData('C:\\xampp\\htdocs\\SpriteGenix_app', 'C128')
+ 3 APPPATH\Controllers\Generate_barcode.php(79): Picqer\Barcode\BarcodeGeneratorPNG->getBarcode('C:\\xampp\\htdocs\\SpriteGenix_app', 'C128')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Generate_barcode->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_barcode))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 08:59:08 --> Undefined variable $view_type
+in APPPATH\Views\reports\stock_report.php on line 75.
+ 1 APPPATH\Views\reports\stock_report.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_type', 'APPPATH\\Views\\reports\\stock_report.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reports\\stock_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/stock_report', [], true)
+ 5 APPPATH\Controllers\Reports.php(1131): view('reports/stock_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->stock_reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 08:59:41 --> Undefined variable $view_type
+in APPPATH\Views\reports\stock_report.php on line 75.
+ 1 APPPATH\Views\reports\stock_report.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $view_type', 'APPPATH\\Views\\reports\\stock_report.php', 75)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\reports\\stock_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/stock_report', [], true)
+ 5 APPPATH\Controllers\Reports.php(1131): view('reports/stock_report', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->stock_reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 09:04:22 --> syntax error, unexpected token "{"
+in APPPATH\Controllers\Reports.php on line 1120.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Reports.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Reports')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Reports')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Reports', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-20 09:04:31 --> mysqli_sql_exception: Unknown column 'product_name' in 'where clause' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Reports.php(1133): CodeIgniter\BaseModel->paginate(30)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Reports->stock_reports()
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-20 09:04:31 --> Unknown column 'product_name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `accounts`
+WHERE `product_name` LIKE :product_name: ESCAPE \'!\'
+AND `company_id` = :company_id:
+AND `financial_year` = :financial_year:
+AND `type` = :type:
+AND `deleted` = :deleted:', [...], false)
+ 2 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Reports.php(1133): CodeIgniter\BaseModel->paginate(30)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->stock_reports()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 09:08:20 --> Undefined variable $PaymentsModel
+in APPPATH\Controllers\Reports.php on line 1118.
+ 1 APPPATH\Controllers\Reports.php(1118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $PaymentsModel', 'APPPATH\\Controllers\\Reports.php', 1118)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->stock_reports()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-20 09:16:09 --> mysqli_sql_exception: Unknown column 'products.closing_balance' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `account...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `account...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `account...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `account...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(30, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(30, 0)
+#7 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Reports.php(1133): CodeIgniter\BaseModel->paginate(30)
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Reports->stock_reports()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-20 09:16:09 --> Unknown column 'products.closing_balance' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `accounts`.*, `products`.`product_name`, `products`.`unit`, `products`.`sub_unit`, `products`.`closing_balance`, `products`.`conversion_unit_rate`
+FROM `accounts`
+LEFT JOIN `products` ON `products`.`id` = `accounts`.`customer_id`
+WHERE `accounts`.`company_id` = :accounts.company_id:
+AND `accounts`.`financial_year` = :accounts.financial_year:
+AND `accounts`.`type` = :accounts.type:
+AND `accounts`.`deleted` = :accounts.deleted:
+ORDER BY `accounts`.`id` DESC
+ LIMIT 30', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(30, 0)
+ 4 SYSTEMPATH\BaseModel.php(1192): CodeIgniter\BaseModel->findAll(30, 0)
+ 5 APPPATH\Controllers\Reports.php(1133): CodeIgniter\BaseModel->paginate(30)
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->stock_reports()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 09:16:24 --> syntax error, unexpected token ":"
+in APPPATH\Views\reports\stock_report.php on line 107.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('reports/stock_report', [], true)
+ 3 APPPATH\Controllers\Reports.php(1146): view('reports/stock_report', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Reports->stock_reports()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reports))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 10:59:46 --> Invalid file: "invoices/invoice_templates/invoice_show0.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoices/invoice_templates/invoice_show0.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('invoices/invoice_templates/invoice_show0', [], true)
+ 3 APPPATH\Controllers\Invoices.php(440): view('invoices/invoice_templates/invoice_show0', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->get_invoice_pdf('19539', 'view')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-20 11:08:33 --> You should provide a barcode string.
+in FCPATH\vendor\picqer\php-barcode-generator\src\Types\TypeCode128.php on line 136.
+ 1 FCPATH\vendor\picqer\php-barcode-generator\src\BarcodeGenerator.php(103): Picqer\Barcode\Types\TypeCode128->getBarcodeData('C:\\xampp\\htdocs\\SpriteGenix_app')
+ 2 FCPATH\vendor\picqer\php-barcode-generator\src\BarcodeGeneratorPNG.php(54): Picqer\Barcode\BarcodeGenerator->getBarcodeData('C:\\xampp\\htdocs\\SpriteGenix_app', 'C128')
+ 3 APPPATH\Controllers\Generate_barcode.php(79): Picqer\Barcode\BarcodeGeneratorPNG->getBarcode('C:\\xampp\\htdocs\\SpriteGenix_app', 'C128')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Generate_barcode->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Generate_barcode))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,15 @@
+.iparent {
+  display: inline-block; /* shrink to fit */
+  width: 100%;           /* whatever width you like */
+  position: relative;    /* so .content can use position: absolute */
+}
+.iparent::after {
+  padding-top: 56.25%; /* percentage of containing block _width_ */
+  display: block;
+  content: '';
+}
+.invoice_page {
+  position: absolute;
+  top: 0; bottom: 0; right: 0; left: 0;  /* follow the parent's edges */
+  
+}  

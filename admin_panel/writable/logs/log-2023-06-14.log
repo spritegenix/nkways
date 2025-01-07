@@ -1,0 +1,114 @@
+CRITICAL - 2023-06-14 04:14:15 --> Call to undefined function post_categories_array()
+in APPPATH\Views\website_management\create_post.php on line 130.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('website_management/create_post', [], true)
+ 4 APPPATH\Controllers\Website_management.php(457): view('website_management/create_post', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Website_management->create_post()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_management))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:47:04 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('website_management/add_post', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:47:31 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('website_management/add_post', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:47:45 --> Class "App\Controllers\PostModel" not found
+in APPPATH\Controllers\Website_management.php on line 472.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Website_management->add_post()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_management))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:48:17 --> Class "App\Controllers\PostThumbnail" not found
+in APPPATH\Controllers\Website_management.php on line 473.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Website_management->add_post()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_management))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:48:38 --> Too few arguments to function now_time(), 0 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Website_management.php on line 518 and exactly 1 expected
+in APPPATH\Helpers\apanel_helper.php on line 4376.
+ 1 APPPATH\Controllers\Website_management.php(518): now_time()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Website_management->add_post()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_management))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:49:44 --> Undefined variable $session
+in APPPATH\Controllers\Website_management.php on line 472.
+ 1 APPPATH\Controllers\Website_management.php(472): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Website_management.php', 472)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Website_management->add_post()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_management))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:50:02 --> Undefined variable $UserModel
+in APPPATH\Controllers\Website_management.php on line 475.
+ 1 APPPATH\Controllers\Website_management.php(475): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $UserModel', 'APPPATH\\Controllers\\Website_management.php', 475)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Website_management->add_post()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Website_management))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 04:58:17 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\Website_management.php on line 485.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-14 04:58:46 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+in APPPATH\Controllers\Website_management.php on line 485.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-06-14 06:35:42 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\Products.php on line 429.
+ 1 APPPATH\Controllers\Products.php(429): round('C:\\xampp\\htdocs\\SpriteGenix_app', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->add_product()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:36:35 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\Products.php on line 429.
+ 1 APPPATH\Controllers\Products.php(429): round('C:\\xampp\\htdocs\\SpriteGenix_app', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->add_product()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:36:43 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\Products.php on line 429.
+ 1 APPPATH\Controllers\Products.php(429): round('C:\\xampp\\htdocs\\SpriteGenix_app', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->add_product()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:36:55 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\Products.php on line 429.
+ 1 APPPATH\Controllers\Products.php(429): round('C:\\xampp\\htdocs\\SpriteGenix_app', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->add_product()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:38:44 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\Products.php on line 409.
+ 1 APPPATH\Controllers\Products.php(409): round('C:\\xampp\\htdocs\\SpriteGenix_app', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->add_product()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:41:04 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\Products.php on line 429.
+ 1 APPPATH\Controllers\Products.php(429): round('C:\\xampp\\htdocs\\SpriteGenix_app', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->add_product()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-14 06:43:50 --> round(): Argument #1 ($num) must be of type int|float, string given
+in APPPATH\Controllers\Products.php on line 1178.
+ 1 APPPATH\Controllers\Products.php(1178): round('C:\\xampp\\htdocs\\SpriteGenix_app', '0')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Products->update_price('47')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

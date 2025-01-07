@@ -1,0 +1,545 @@
+CRITICAL - 2023-03-26 03:02:01 --> Call to a member function get_cellmap() on null
+in FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40.
+ 1 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(null)
+ 2 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 3 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+ 4 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 5 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+ 6 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 7 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+ 8 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+10 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+11 APPPATH\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+12 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+13 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+14 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+15 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 03:02:26 --> Allowed memory size of 1038090240 bytes exhausted (tried to allocate 507514880 bytes)
+【Previous Exception】
+Error
+Call to a member function get_cellmap() on null
+#0 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#5 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#6 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#7 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#9 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#10 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+#12 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#13 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#14 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#15 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-26 03:06:17 --> Call to a member function get_cellmap() on null
+in FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40.
+ 1 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(null)
+ 2 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 3 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+ 4 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 5 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+ 6 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 7 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 03:06:41 --> Allowed memory size of 1038090240 bytes exhausted (tried to allocate 507514880 bytes)
+【Previous Exception】
+Error
+Call to a member function get_cellmap() on null
+#0 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#5 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#7 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-26 03:06:42 --> Call to a member function get_cellmap() on null
+in FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40.
+ 1 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(null)
+ 2 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 3 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+ 4 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 5 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+ 6 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 7 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 03:07:06 --> Allowed memory size of 1038090240 bytes exhausted (tried to allocate 507514880 bytes)
+【Previous Exception】
+Error
+Call to a member function get_cellmap() on null
+#0 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#5 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#7 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-26 03:11:05 --> Call to a member function get_cellmap() on null
+in FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40.
+ 1 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(null)
+ 2 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 3 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+ 4 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 5 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+ 6 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 7 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 03:11:28 --> Allowed memory size of 1038090240 bytes exhausted (tried to allocate 507514880 bytes)
+【Previous Exception】
+Error
+Call to a member function get_cellmap() on null
+#0 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#5 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#7 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-26 03:13:26 --> Call to a member function get_cellmap() on null
+in FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40.
+ 1 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(null)
+ 2 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 3 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+ 4 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 5 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+ 6 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 7 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 03:13:50 --> Allowed memory size of 1038090240 bytes exhausted (tried to allocate 507514880 bytes)
+【Previous Exception】
+Error
+Call to a member function get_cellmap() on null
+#0 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#5 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#7 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-26 03:13:52 --> Call to a member function get_cellmap() on null
+in FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php on line 40.
+ 1 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(null)
+ 2 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 3 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+ 4 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+ 5 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(null)
+ 6 FCPATH\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 7 FCPATH\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(null)
+ 8 FCPATH\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+ 9 APPPATH\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 03:14:16 --> Allowed memory size of 1038090240 bytes exhausted (tried to allocate 507514880 bytes)
+【Previous Exception】
+Error
+Call to a member function get_cellmap() on null
+#0 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#1 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(56): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#2 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\TableRow->reflow(Object(Dompdf\FrameDecorator\Block))
+#3 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Block.php(866): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#4 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Block->reflow(NULL)
+#5 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameReflower\Page.php(142): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#6 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(913): Dompdf\FrameReflower\Page->reflow(NULL)
+#7 C:\xampp\htdocs\SpriteGenix_app\vendor\dompdf\dompdf\src\Dompdf.php(765): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Payments.php(89): Dompdf\Dompdf->render()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Payments->get_receipt('2270', 'view')
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 101.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-26 04:04:56 --> Class "App\Controllers\MainexamModel" not found
+in APPPATH\Controllers\Student_master.php on line 76.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:05:10 --> Class "AcademicYearModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 140.
+ 1 APPPATH\Views\student_master\student_details.php(50): year_of_academic_year('12')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(111): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:05:27 --> Class "AcademicYearModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 140.
+ 1 APPPATH\Views\student_master\student_details.php(50): year_of_academic_year('12')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:06:08 --> Cannot use App\Models\AcademicYearModel as AcademicYearModel because the name is already in use
+in APPPATH\Helpers\school_helper.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-26 04:06:28 --> Class "AcademicYearModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 140.
+ 1 APPPATH\Views\student_master\student_details.php(50): year_of_academic_year('12')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:07:57 --> Class "Classtablemodel" not found
+in APPPATH\Helpers\apanel_helper.php on line 164.
+ 1 APPPATH\Views\student_master\student_details.php(78): get_roll_no_of_student('1', '2670')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:08:08 --> Class "AnalyticsModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 177.
+ 1 APPPATH\Views\student_master\student_details.php(193): get_analytics_data('1', '2670', 'involve_sports')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:08:17 --> Class "MarksModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 200.
+ 1 APPPATH\Views\student_master\student_details.php(216): performance_in_exams('1', '2670')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:08:30 --> Class "HealthModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 262.
+ 1 APPPATH\Views\student_master\student_details.php(233): get_health_data('1', '2670', 'weight')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:08:47 --> Class "IssuebookModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 291.
+ 1 APPPATH\Views\student_master\student_details.php(282): total_issued_books_of_student('1', '2670', 'all')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:09:05 --> Class "SportsparticipantModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 308.
+ 1 APPPATH\Views\student_master\student_details.php(297): sports_student_participate_array('1', '2670')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:10:05 --> Class "AcademicYearModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 140.
+ 1 APPPATH\Views\student_master\student_details.php(50): year_of_academic_year('12')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:10:25 --> Class "AcademicYearModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 140.
+ 1 APPPATH\Views\student_master\student_details.php(50): year_of_academic_year('12')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:10:28 --> Class "AcademicYearModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 140.
+ 1 APPPATH\Views\student_master\student_details.php(50): year_of_academic_year('12')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:10:29 --> Class "AcademicYearModel" not found
+in APPPATH\Helpers\apanel_helper.php on line 140.
+ 1 APPPATH\Views\student_master\student_details.php(50): year_of_academic_year('12')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:10:56 --> Class "Classtablemodel" not found
+in APPPATH\Helpers\apanel_helper.php on line 152.
+ 1 APPPATH\Views\student_master\student_details.php(78): get_roll_no_of_student('1', '2670')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\student_master\\student_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('student_master/student_details', [], true)
+ 5 APPPATH\Controllers\Student_master.php(113): view('student_master/student_details')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Student_master->student_details('2670')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student_master))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:45:06 --> Too few arguments to function add_payment(), 11 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Invoices.php on line 1223 and at least 12 expected
+in APPPATH\Helpers\apanel_helper.php on line 3386.
+ 1 APPPATH\Controllers\Invoices.php(1223): add_payment('74', '11737', '2', '---', '2671', 'Ganesh Kuamar', 'C:\\xampp\\htdocs\\SpriteGenix_app', '2023-03-26 08:45:06', '02691', '1', 'C:\\xampp\\htdocs\\SpriteGenix_app')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->update_pay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:45:22 --> Too few arguments to function add_payment(), 11 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Invoices.php on line 1223 and at least 12 expected
+in APPPATH\Helpers\apanel_helper.php on line 3386.
+ 1 APPPATH\Controllers\Invoices.php(1223): add_payment('74', '32897', '1', '---', '2671', 'Ganesh Kuamar', 'C:\\xampp\\htdocs\\SpriteGenix_app', '2023-03-26 08:45:22', '73086', '1', 'C:\\xampp\\htdocs\\SpriteGenix_app')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->update_pay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:45:46 --> Too few arguments to function add_payment(), 11 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Invoices.php on line 1223 and at least 12 expected
+in APPPATH\Helpers\apanel_helper.php on line 3386.
+ 1 APPPATH\Controllers\Invoices.php(1223): add_payment('74', '32897', '233', '---', '2671', 'Ganesh Kuamar', 'C:\\xampp\\htdocs\\SpriteGenix_app', '2023-03-26 08:45:46', '94276', '1', 'C:\\xampp\\htdocs\\SpriteGenix_app')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->update_pay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:45:48 --> Too few arguments to function add_payment(), 11 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Invoices.php on line 1223 and at least 12 expected
+in APPPATH\Helpers\apanel_helper.php on line 3386.
+ 1 APPPATH\Controllers\Invoices.php(1223): add_payment('74', '32897', '233', '---', '2671', 'Ganesh Kuamar', 'C:\\xampp\\htdocs\\SpriteGenix_app', '2023-03-26 08:45:48', '85409', '1', 'C:\\xampp\\htdocs\\SpriteGenix_app')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->update_pay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:46:21 --> Too few arguments to function add_payment(), 11 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Invoices.php on line 1223 and at least 12 expected
+in APPPATH\Helpers\apanel_helper.php on line 3386.
+ 1 APPPATH\Controllers\Invoices.php(1223): add_payment('74', '11737', '24233', '---', '2671', 'Ganesh Kuamar', 'C:\\xampp\\htdocs\\SpriteGenix_app', '2023-03-26 08:46:21', '75923', '1', 'C:\\xampp\\htdocs\\SpriteGenix_app')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->update_pay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:46:25 --> Too few arguments to function add_payment(), 11 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Invoices.php on line 1223 and at least 12 expected
+in APPPATH\Helpers\apanel_helper.php on line 3386.
+ 1 APPPATH\Controllers\Invoices.php(1223): add_payment('74', '32897', '24233', '---', '2671', 'Ganesh Kuamar', 'C:\\xampp\\htdocs\\SpriteGenix_app', '2023-03-26 08:46:25', '74861', '1', 'C:\\xampp\\htdocs\\SpriteGenix_app')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->update_pay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 04:46:45 --> Too few arguments to function add_payment(), 11 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Invoices.php on line 1223 and at least 12 expected
+in APPPATH\Helpers\apanel_helper.php on line 3386.
+ 1 APPPATH\Controllers\Invoices.php(1223): add_payment('74', '11737', '12', '---', '2671', 'Ganesh Kuamar', 'C:\\xampp\\htdocs\\SpriteGenix_app', '2023-03-26 08:46:45', '52970', '1', 'C:\\xampp\\htdocs\\SpriteGenix_app')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Invoices->update_pay()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Invoices))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:23:02 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3803.
+ 1 APPPATH\Helpers\apanel_helper.php(3803): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3803)
+ 2 APPPATH\Views\fees\fees_collected.php(130): invoice_data('1728', 'invoice_type')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\fees\\fees_collected.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('fees/fees_collected', [], true)
+ 6 APPPATH\Controllers\Fees_and_payments.php(2540): view('fees/fees_collected')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->fees_collected()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:23:56 --> Trying to access array offset on value of type null
+in APPPATH\Helpers\apanel_helper.php on line 3803.
+ 1 APPPATH\Helpers\apanel_helper.php(3803): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'APPPATH\\Helpers\\apanel_helper.php', 3803)
+ 2 APPPATH\Views\fees\fees_collected.php(130): invoice_data('1728', 'invoice_type')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\fees\\fees_collected.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('fees/fees_collected', [], true)
+ 6 APPPATH\Controllers\Fees_and_payments.php(2540): view('fees/fees_collected')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->fees_collected()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:24:16 --> Class "App\Controllers\ClassModel" not found
+in APPPATH\Controllers\Fees_and_payments.php on line 2646.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Fees_and_payments->fees_wise_outstanding()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fees_and_payments))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:32:34 --> Cannot redeclare subject_array() (previously declared in C:\xampp\htdocs\SpriteGenix_app\app\Helpers\school_helper.php:38)
+in APPPATH\Helpers\school_helper.php on line 341.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-03-26 10:35:02 --> Class "TimetableModel" not found
+in APPPATH\Helpers\school_helper.php on line 66.
+ 1 APPPATH\Views\time_table\tab_time_table.php(81): get_time_table_array('1', '4', 1)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\time_table\\tab_time_table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('time_table/tab_time_table', [], true)
+ 5 APPPATH\Controllers\Time_table.php(71): view('time_table/tab_time_table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Time_table->tab_time_table()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Time_table))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:48:50 --> Class "APP\Models\CompanySettings2" not found
+in APPPATH\Helpers\apanel_helper.php on line 139.
+ 1 APPPATH\Views\payments\payment_details.php(116): get_setting2('1', 'receipt_page_size')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payments\\payment_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payments/payment_details', [], true)
+ 5 APPPATH\Controllers\Payments.php(48): view('payments/payment_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payments->details('2271')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:50:48 --> syntax error, unexpected token ":", expecting ";"
+in APPPATH\Controllers\Payments.php on line 17.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\Payments.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Payments')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Payments')
+ 4 SYSTEMPATH\CodeIgniter.php(892): class_exists('\\App\\Controllers\\Payments', true)
+ 5 SYSTEMPATH\CodeIgniter.php(486): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:50:56 --> Class "APP\Models\CompanySettings2" not found
+in APPPATH\Helpers\apanel_helper.php on line 139.
+ 1 APPPATH\Views\payments\payment_details.php(116): get_setting2('1', 'receipt_page_size')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\payments\\payment_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('payments/payment_details', [], true)
+ 5 APPPATH\Controllers\Payments.php(50): view('payments/payment_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Payments->details('2271')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payments))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:52:16 --> Class "APP\Models\CompanySettings2" not found
+in APPPATH\Helpers\apanel_helper.php on line 139.
+ 1 APPPATH\Views\settings\invoice.php(213): get_setting2('1', 'invoice_page_size')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\settings\\invoice.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('settings/invoice', [], true)
+ 5 APPPATH\Controllers\Settings.php(729): view('settings/invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Settings->invoice()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:52:38 --> Class "APP\Models\CompanySettings2" not found
+in APPPATH\Helpers\apanel_helper.php on line 139.
+ 1 APPPATH\Views\settings\invoice.php(213): get_setting2('1', 'invoice_page_size')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\settings\\invoice.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('settings/invoice', [], true)
+ 5 APPPATH\Controllers\Settings.php(731): view('settings/invoice', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Settings->invoice()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:57:23 --> Class "APP\Models\CompanySettings2" not found
+in APPPATH\Helpers\apanel_helper.php on line 139.
+ 1 APPPATH\Views\voucher_entries\voucher_details.php(160): get_setting2('1', 'voucher_page_size')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\voucher_entries\\voucher_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('voucher_entries/voucher_details', [], true)
+ 5 APPPATH\Controllers\Voucher_entries.php(516): view('voucher_entries/voucher_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Voucher_entries->details('81')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher_entries))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-26 10:57:55 --> Class "APP\Models\CompanySettings2" not found
+in APPPATH\Helpers\apanel_helper.php on line 139.
+ 1 APPPATH\Views\voucher_entries\voucher_details.php(160): get_setting2('1', 'voucher_page_size')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\voucher_entries\\voucher_details.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('voucher_entries/voucher_details', [], true)
+ 5 APPPATH\Controllers\Voucher_entries.php(518): view('voucher_entries/voucher_details', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Voucher_entries->details('81')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Voucher_entries))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

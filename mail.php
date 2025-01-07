@@ -1,8 +1,13 @@
+
+
+
+
 <?php
-// Import PHPMailer classes into the global namespace
+// Import PHPMailer classes
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use Dotenv\Dotenv;
+
 // Require Composer's autoload file
 require 'vendor/autoload.php';
 
@@ -10,55 +15,76 @@ require 'vendor/autoload.php';
 $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = strip_tags(trim($_POST["name"]));
     $name = str_replace(array("\r", "\n"), array(" ", " "), $name);
     $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
     $subject = trim($_POST["subject"]);
     $message = trim($_POST["message"]);
+    $mobile = isset($_POST["mblno"]) && !empty(trim($_POST["mblno"])) ? trim($_POST["mblno"]) : "0";
 
-    // Check for required fields
-    if (empty($name) || empty($subject) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        http_response_code(400);
-        echo "Please complete the form and try again.";
-        exit;
-    }
-    // Check for required fields
+
+    // Validate fields
     if (empty($name) || empty($subject) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
         http_response_code(400);
         echo "Please complete the form and try again.";
         exit;
     }
 
-    // Create a new PHPMailer instance
+    // Send email via PHPMailer
     $mail = new PHPMailer(true);
 
     try {
-        // Server settings
-        $mail->isSMTP();                                          // Send using SMTP
-        $mail->Host = $_ENV['SMTP_HOST'];;                           // Set the SMTP server to send through
-        $mail->SMTPAuth = true;                                   // Enable SMTP authentication
-        $mail->Username = $_ENV['SMTP_USERNAME'];                 // SMTP username
-        $mail->Password = $_ENV['SMTP_PASSWORD'];  // SMTP password or app password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;       // Enable TLS encryption
-        $mail->Port = $_ENV['SMTP_PORT'];                                    // TCP port to connect to
+        $mail->isSMTP();
+        $mail->Host = $_ENV['SMTP_HOST'];
+        $mail->SMTPAuth = true;
+        $mail->Username = $_ENV['SMTP_USERNAME'];
+        $mail->Password = $_ENV['SMTP_PASSWORD'];
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port = $_ENV['SMTP_PORT'];
 
-        // Recipients
-        $mail->setFrom($email, $name);                            // Sender's email and name
-        $mail->addAddress('ashikshettyc@gmail.com', 'Admin'); // Add a recipient (your email)
+        $mail->setFrom($email, $name);
+        $mail->addAddress('ashikshettyc@gmail.com', 'Admin');
 
-        // Content
-        $mail->Subject = $subject;                               // Email subject
-        $mail->Body = "Name: $name\nEmail: $email\n\nMessage:\n$message";
+        $mail->Subject = $subject;
+        $mail->Body = "Name: $name\nEmail: $email\nMobile: $mobile\n\nMessage:\n$message";
 
-        // Send the email
         $mail->send();
-        http_response_code(200);
-        echo "Thank You! Your message has been sent.";
     } catch (Exception $e) {
         http_response_code(500);
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        exit;
+    }
+
+    // Send data to CodeIgniter route
+    $postData = [
+        'name' => $name,
+        'subject' => $subject,
+        'email' => $email,
+        'msg' => $message,
+        'mblno' => $mobile,
+        'created_at' => date('Y-m-d H:i:s'),
+    ];
+
+    $ciUrl = "http://localhost/admin_panel/website_management/email";
+
+    $options = [
+        'http' => [
+            'header' => "Content-Type: application/json\r\n",
+            'method' => 'POST',
+            'content' => json_encode($postData),
+        ],
+    ];
+
+    $context = stream_context_create($options);
+    $ciResponse = file_get_contents($ciUrl, false, $context);
+
+    if ($ciResponse === false) {
+        http_response_code(500);
+        echo "Failed to send data to CodeIgniter.";
+    } else {
+        http_response_code(200);
+        echo "Email sent and data saved successfully!";
     }
 } else {
     http_response_code(403);

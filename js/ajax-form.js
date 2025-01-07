@@ -12,7 +12,11 @@ $(function () {
 
     // Serialize the form data.
     var formData = $(form).serialize();
-
+    $.ajax({
+      type: 'POST',
+      url: ' http://localhost/admin_panel/website_management/email',
+      data: formData,
+    });
     // Submit the form using AJAX.
     $.ajax({
       type: 'POST',

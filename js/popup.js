@@ -43,8 +43,6 @@ document.getElementById('testimonialForm').onsubmit = function (event) {
     review: message,
   };
 
-  console.log(formData);
-
   // Send the form data as JSON using fetch API with updated URL
   fetch('http://localhost/admin_panel/website_management/submit-testimonial', {
     method: 'POST',

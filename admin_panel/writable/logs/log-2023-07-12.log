@@ -1,0 +1,30 @@
+CRITICAL - 2023-07-12 05:36:05 --> Undefined array key "show_business_name"
+in APPPATH\Helpers\apanel_helper.php on line 495.
+ 1 APPPATH\Helpers\apanel_helper.php(495): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "show_business_name"', 'APPPATH\\Helpers\\apanel_helper.php', 495)
+ 2 APPPATH\Views\invoices\invoice_setting_form.php(10): get_invoicesetting('1', 'sales', 'show_business_name')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\invoices\\invoice_setting_form.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('invoices/invoice_setting_form', [], true)
+ 6 APPPATH\Controllers\Settings.php(4523): view('invoices/invoice_setting_form', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Settings->get_form('sales')
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 06:03:33 --> Invalid file: "hr_manage/detailed_attendance_report.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('hr_manage/detailed_attendance_report.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/detailed_attendance_report', [], true)
+ 3 APPPATH\Controllers\Hr_manage.php(284): view('hr_manage/detailed_attendance_report')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-12 06:22:32 --> syntax error, unexpected token "endforeach"
+in APPPATH\Views\hr_manage\detailed_attendance_report.php on line 140.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/detailed_attendance_report', [], true)
+ 3 APPPATH\Controllers\Hr_manage.php(283): view('hr_manage/detailed_attendance_report')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

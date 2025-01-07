@@ -1,0 +1,768 @@
+ERROR - 2023-08-05 04:29:23 --> mysqli_sql_exception: Table 'SpriteGenix_app_db.main_companies' doesn't exist in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Helpers\auth_helper.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Home.php(68): app_super_user('10')
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-05 04:29:23 --> Table 'SpriteGenix_app_db.main_companies' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `main_companies`
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Helpers\auth_helper.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(68): app_super_user('10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 04:29:45 --> mysqli_sql_exception: Table 'SpriteGenix_app_db.main_companies' doesn't exist in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Helpers\auth_helper.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Home.php(68): app_super_user('10')
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-05 04:29:45 --> Table 'SpriteGenix_app_db.main_companies' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `main_companies`
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Helpers\auth_helper.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(68): app_super_user('10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 04:29:46 --> mysqli_sql_exception: Table 'SpriteGenix_app_db.main_companies' doesn't exist in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Helpers\auth_helper.php(39): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Home.php(68): app_super_user('10')
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Home->index()
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-05 04:29:46 --> Table 'SpriteGenix_app_db.main_companies' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `main_companies`
+WHERE `id` = :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Helpers\auth_helper.php(39): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Home.php(68): app_super_user('10')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 04:33:11 --> mysqli_sql_exception: Table 'SpriteGenix_app_db.pushed_attendances' doesn't exist in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `pushed_...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pushed_...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pushed_...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pushed_...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(107): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+#8 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-08-05 04:33:11 --> Table 'SpriteGenix_app_db.pushed_attendances' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `pushed_attendances`.*, `customers`.`display_name`
+FROM `pushed_attendances`
+LEFT JOIN `customers` ON `customers`.`id` = `pushed_attendances`.`employee_id`
+WHERE `pushed_attendances`.`company_id` = :pushed_attendances.company_id:
+AND DATE(pushed_attendances.date) = :DATE(pushed_attendances.date):
+AND `pushed_attendances`.`deleted` = :pushed_attendances.deleted:
+ORDER BY `pushed_attendances`.`id` DESC', [...], false)
+ 2 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Hr_manage.php(107): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 04:37:34 --> mysqli_sql_exception: Unknown column 'inout_status' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 04:37:34 --> Unknown column 'inout_status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `attendances` (`company_id`, `financial_year`, `employee_id`, `created_at`, `punched_time`, `punch_id`, `state`, `employee_code`, `inout_status`, `u_type`, `ip_address`) VALUES (:company_id:, :financial_year:, :employee_id:, :created_at:, :punched_time:, :punch_id:, :state:, :employee_code:, :inout_status:, :u_type:, :ip_address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 04:42:57 --> mysqli_sql_exception: Unknown column 'inout_status' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 04:42:57 --> Unknown column 'inout_status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `attendances` (`company_id`, `financial_year`, `employee_id`, `created_at`, `punched_time`, `punch_id`, `state`, `employee_code`, `inout_status`, `u_type`, `ip_address`) VALUES (:company_id:, :financial_year:, :employee_id:, :created_at:, :punched_time:, :punch_id:, :state:, :employee_code:, :inout_status:, :u_type:, :ip_address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 04:43:51 --> mysqli_sql_exception: Unknown column 'inout_status' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 04:43:51 --> Unknown column 'inout_status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `attendances` (`company_id`, `financial_year`, `employee_id`, `created_at`, `punched_time`, `punch_id`, `state`, `employee_code`, `inout_status`, `u_type`, `ip_address`) VALUES (:company_id:, :financial_year:, :employee_id:, :created_at:, :punched_time:, :punch_id:, :state:, :employee_code:, :inout_status:, :u_type:, :ip_address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 04:49:30 --> mysqli_sql_exception: Unknown column 'inout_status' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 04:49:30 --> Unknown column 'inout_status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `attendances` (`company_id`, `financial_year`, `employee_id`, `created_at`, `punched_time`, `punch_id`, `state`, `employee_code`, `inout_status`, `u_type`, `ip_address`) VALUES (:company_id:, :financial_year:, :employee_id:, :created_at:, :punched_time:, :punch_id:, :state:, :employee_code:, :inout_status:, :u_type:, :ip_address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 04:52:05 --> mysqli_sql_exception: Unknown column 'inout_status' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 04:52:05 --> Unknown column 'inout_status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `attendances` (`company_id`, `financial_year`, `employee_id`, `created_at`, `punched_time`, `punch_id`, `state`, `employee_code`, `inout_status`, `u_type`, `ip_address`) VALUES (:company_id:, :financial_year:, :employee_id:, :created_at:, :punched_time:, :punch_id:, :state:, :employee_code:, :inout_status:, :u_type:, :ip_address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(399): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 05:02:14 --> mysqli_sql_exception: Unknown column 'inout_status' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(467): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 05:02:14 --> Unknown column 'inout_status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `attendances` (`company_id`, `financial_year`, `employee_id`, `created_at`, `punched_time`, `punch_id`, `state`, `employee_code`, `u_type`, `inout_status`, `ip_address`) VALUES (:company_id:, :financial_year:, :employee_id:, :created_at:, :punched_time:, :punch_id:, :state:, :employee_code:, :u_type:, :inout_status:, :ip_address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(467): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 05:02:30 --> mysqli_sql_exception: Unknown column 'inout_status' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(467): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 05:02:30 --> Unknown column 'inout_status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `attendances` (`company_id`, `financial_year`, `employee_id`, `created_at`, `punched_time`, `punch_id`, `state`, `employee_code`, `u_type`, `inout_status`, `ip_address`) VALUES (:company_id:, :financial_year:, :employee_id:, :created_at:, :punched_time:, :punch_id:, :state:, :employee_code:, :u_type:, :inout_status:, :ip_address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(467): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 05:04:29 --> mysqli_sql_exception: Unknown column 'inout_status' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(467): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 05:04:29 --> Unknown column 'inout_status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `attendances` (`company_id`, `financial_year`, `employee_id`, `created_at`, `punched_time`, `punch_id`, `state`, `employee_code`, `u_type`, `inout_status`, `ip_address`) VALUES (:company_id:, :financial_year:, :employee_id:, :created_at:, :punched_time:, :punch_id:, :state:, :employee_code:, :u_type:, :inout_status:, :ip_address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(467): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 05:04:30 --> mysqli_sql_exception: Unknown column 'inout_status' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `at...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `at...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `at...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `at...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(467): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 05:04:30 --> Unknown column 'inout_status' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `attendances` (`company_id`, `financial_year`, `employee_id`, `created_at`, `punched_time`, `punch_id`, `state`, `employee_code`, `u_type`, `inout_status`, `ip_address`) VALUES (:company_id:, :financial_year:, :employee_id:, :created_at:, :punched_time:, :punch_id:, :state:, :employee_code:, :u_type:, :inout_status:, :ip_address:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(467): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:07:48 --> Unsupported operand types: float - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(400): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:07:59 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(400): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->push_attendance()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:09:48 --> Unsupported operand types: float - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:09:55 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:10:32 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:10:41 --> Unsupported operand types: string - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:10:42 --> Unsupported operand types: float - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:13:13 --> Unsupported operand types: float - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:13:21 --> Unsupported operand types: float - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:13:47 --> Unsupported operand types: float - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:13:57 --> Unsupported operand types: float - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:14:02 --> Unsupported operand types: float - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:15:45 --> Unsupported operand types: float - string
+in APPPATH\Controllers\Hr_manage.php on line 541.
+ 1 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 05:28:53 --> mysqli_sql_exception: Unknown column 'from' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(994): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->employee_categories()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 05:28:53 --> Unknown column 'from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employees_categories` (`company_id`, `category_name`, `leave_for_month`, `carry_forward`, `total_working_hour`, `full_day_hour`, `half_day_hour`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `from`, `to`) VALUES (:company_id:, :category_name:, :leave_for_month:, :carry_forward:, :total_working_hour:, :full_day_hour:, :half_day_hour:, :sunday:, :monday:, :tuesday:, :wednesday:, :thursday:, :friday:, :saturday:, :from:, :to:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(994): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->employee_categories()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 05:30:01 --> mysqli_sql_exception: Unknown column 'from' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(994): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->employee_categories()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 05:30:01 --> Unknown column 'from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employees_categories` (`company_id`, `category_name`, `leave_for_month`, `carry_forward`, `total_working_hour`, `full_day_hour`, `half_day_hour`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `from`, `to`) VALUES (:company_id:, :category_name:, :leave_for_month:, :carry_forward:, :total_working_hour:, :full_day_hour:, :half_day_hour:, :sunday:, :monday:, :tuesday:, :wednesday:, :thursday:, :friday:, :saturday:, :from:, :to:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(994): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->employee_categories()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 05:31:41 --> mysqli_sql_exception: Unknown column 'from' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(994): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->employee_categories()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 05:31:41 --> Unknown column 'from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employees_categories` (`company_id`, `category_name`, `leave_for_month`, `carry_forward`, `total_working_hour`, `full_day_hour`, `half_day_hour`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `from`, `to`) VALUES (:company_id:, :category_name:, :leave_for_month:, :carry_forward:, :total_working_hour:, :full_day_hour:, :half_day_hour:, :sunday:, :monday:, :tuesday:, :wednesday:, :thursday:, :friday:, :saturday:, :from:, :to:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(994): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->employee_categories()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 05:31:44 --> mysqli_sql_exception: Unknown column 'from' in 'field list' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `em...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `em...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `em...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `em...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(994): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->employee_categories()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#11 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-08-05 05:31:44 --> Unknown column 'from' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `employees_categories` (`company_id`, `category_name`, `leave_for_month`, `carry_forward`, `total_working_hour`, `full_day_hour`, `half_day_hour`, `sunday`, `monday`, `tuesday`, `wednesday`, `thursday`, `friday`, `saturday`, `from`, `to`) VALUES (:company_id:, :category_name:, :leave_for_month:, :carry_forward:, :total_working_hour:, :full_day_hour:, :half_day_hour:, :sunday:, :monday:, :tuesday:, :wednesday:, :thursday:, :friday:, :saturday:, :from:, :to:)', [...], false)
+ 2 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Hr_manage.php(994): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->employee_categories()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:40:29 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/edit_staff_data/6110', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:40:34 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/edit_staff_data/6110', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 05:40:40 --> The action you requested is not allowed.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('hr_manage/edit_staff_data/6110', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 06:01:26 --> syntax error, unexpected identifier "get_total_days_of_month"
+in APPPATH\Helpers\attendance_helper.php on line 50.
+ 1 SYSTEMPATH\Controller.php(85): helper([...])
+ 2 APPPATH\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 06:21:36 --> syntax error, unexpected token "return"
+in APPPATH\Helpers\attendance_helper.php on line 62.
+ 1 SYSTEMPATH\Controller.php(85): helper([...])
+ 2 APPPATH\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 06:59:05 --> syntax error, unexpected token "->", expecting identifier or variable or "{" or "$"
+in APPPATH\Helpers\attendance_helper.php on line 87.
+ 1 SYSTEMPATH\Controller.php(85): helper([...])
+ 2 APPPATH\Controllers\BaseController.php(46): CodeIgniter\Controller->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 3 SYSTEMPATH\CodeIgniter.php(907): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 4 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 06:59:20 --> Array to string conversion
+in APPPATH\Views\hr_manage\detailed_attendance_report.php on line 125.
+ 1 APPPATH\Views\hr_manage\detailed_attendance_report.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\hr_manage\\detailed_attendance_report.php', 125)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\detailed_attendance_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/detailed_attendance_report', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(272): view('hr_manage/detailed_attendance_report')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 07:12:59 --> Undefined variable $tdays
+in APPPATH\Helpers\attendance_helper.php on line 135.
+ 1 APPPATH\Helpers\attendance_helper.php(135): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tdays', 'APPPATH\\Helpers\\attendance_helper.php', 135)
+ 2 APPPATH\Views\hr_manage\detailed_attendance_report.php(125): getAllWeekOffsOfMonth('2023', '08', 'Sun', '1')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\detailed_attendance_report.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/detailed_attendance_report', [], true)
+ 6 APPPATH\Controllers\Hr_manage.php(272): view('hr_manage/detailed_attendance_report')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->detailed_attendance_report()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 08:24:57 --> Too few arguments to function get_attendance_event(), 2 passed in C:\xampp\htdocs\SpriteGenix_app\app\Views\hr_manage\attendance_report.php on line 149 and exactly 3 expected
+in APPPATH\Helpers\crm_helper.php on line 78.
+ 1 APPPATH\Views\hr_manage\attendance_report.php(149): get_attendance_event('10', '2023-08-1')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance_report', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(210): view('hr_manage/attendance_report')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 08:49:40 --> Class "AttendanceModel" not found
+in APPPATH\Helpers\attendance_helper.php on line 146.
+ 1 APPPATH\Views\hr_manage\attendance_report.php(162): get_user_attendance_data_by_date('5847', '2023-08-1', 'field_id')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance_report', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(210): view('hr_manage/attendance_report')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 08:51:01 --> Undefined array key "note"
+in APPPATH\Helpers\attendance_helper.php on line 162.
+ 1 APPPATH\Helpers\attendance_helper.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "note"', 'APPPATH\\Helpers\\attendance_helper.php', 162)
+ 2 APPPATH\Views\hr_manage\attendance_report.php(168): get_user_attendance_note_by_month('5847', '2023-08-31')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance_report.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance_report', [], true)
+ 6 APPPATH\Controllers\Hr_manage.php(210): view('hr_manage/attendance_report')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 08:51:49 --> Undefined array key "note"
+in APPPATH\Helpers\attendance_helper.php on line 162.
+ 1 APPPATH\Helpers\attendance_helper.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "note"', 'APPPATH\\Helpers\\attendance_helper.php', 162)
+ 2 APPPATH\Views\hr_manage\attendance_report.php(168): get_user_attendance_note_by_month('5847', '2023-08-31')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance_report.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance_report', [], true)
+ 6 APPPATH\Controllers\Hr_manage.php(210): view('hr_manage/attendance_report')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 08:52:23 --> Undefined array key "note"
+in APPPATH\Helpers\attendance_helper.php on line 162.
+ 1 APPPATH\Helpers\attendance_helper.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "note"', 'APPPATH\\Helpers\\attendance_helper.php', 162)
+ 2 APPPATH\Views\hr_manage\attendance_report.php(168): get_user_attendance_note_by_month('5847', '2023-08-31')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance_report.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance_report', [], true)
+ 6 APPPATH\Controllers\Hr_manage.php(210): view('hr_manage/attendance_report')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-05 08:54:36 --> mysqli_sql_exception: Unknown column '05am31UTC' in 'where clause' in C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\SpriteGenix_app\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\SpriteGenix_app\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\SpriteGenix_app\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\SpriteGenix_app\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\SpriteGenix_app\app\Helpers\attendance_helper.php(149): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\SpriteGenix_app\app\Views\hr_manage\attendance_report.php(162): get_user_attendance_data_by_date('5847', '2023-08-1', 'field_id')
+#8 C:\xampp\htdocs\SpriteGenix_app\system\View\View.php(213): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\SpriteGenix_app\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 C:\xampp\htdocs\SpriteGenix_app\system\Common.php(1184): CodeIgniter\View\View->render('hr_manage/atten...', Array, true)
+#11 C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php(210): view('hr_manage/atten...')
+#12 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report()
+#13 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+#14 C:\xampp\htdocs\SpriteGenix_app\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#15 C:\xampp\htdocs\SpriteGenix_app\index.php(67): CodeIgniter\CodeIgniter->run()
+#16 {main}
+CRITICAL - 2023-08-05 08:54:36 --> Unknown column '05am31UTC' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `pushed_attendances`
+WHERE `05am31UTC` = :05am31UTC:
+AND `employee_id` = :employee_id:
+ LIMIT 1', [...], false)
+ 2 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 4 APPPATH\Helpers\attendance_helper.php(149): CodeIgniter\BaseModel->first()
+ 5 APPPATH\Views\hr_manage\attendance_report.php(162): get_user_attendance_data_by_date('5847', '2023-08-1', 'field_id')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance_report.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance_report', [], true)
+ 9 APPPATH\Controllers\Hr_manage.php(210): view('hr_manage/attendance_report')
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 09:46:08 --> Too few arguments to function get_user_leave_by_year(), 3 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php on line 178 and exactly 4 expected
+in APPPATH\Helpers\attendance_helper.php on line 157.
+ 1 APPPATH\Controllers\Hr_manage.php(178): get_user_leave_by_year('5847', '2022-01-01', 'Absent')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report('leave_report')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 09:52:13 --> Too few arguments to function get_user_leave_by_year(), 3 passed in C:\xampp\htdocs\SpriteGenix_app\app\Controllers\Hr_manage.php on line 178 and exactly 4 expected
+in APPPATH\Helpers\attendance_helper.php on line 157.
+ 1 APPPATH\Controllers\Hr_manage.php(178): get_user_leave_by_year('5847', '2022-01-01', 'Absent')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report('leave_report')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 09:54:23 --> Undefined array key "employee_category"
+in APPPATH\Controllers\Hr_manage.php on line 178.
+ 1 APPPATH\Controllers\Hr_manage.php(178): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "employee_category"', 'APPPATH\\Controllers\\Hr_manage.php', 178)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report('leave_report')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-05 10:11:26 --> Class "App\Models\AttendancesModel" not found
+in APPPATH\Helpers\attendance_helper.php on line 182.
+ 1 APPPATH\Views\hr_manage\attendance_report.php(194): get_user_attendance_note_by_month('5847', '2023-08-31')
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\hr_manage\\attendance_report.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('hr_manage/attendance_report', [], true)
+ 5 APPPATH\Controllers\Hr_manage.php(210): view('hr_manage/attendance_report')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->attendance_report()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

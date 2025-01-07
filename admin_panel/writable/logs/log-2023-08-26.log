@@ -1,0 +1,12 @@
+CRITICAL - 2023-08-26 10:35:07 --> Call to undefined method App\Controllers\Users::Accounting_library()
+in APPPATH\Controllers\Users.php on line 393.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->logout()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-26 10:41:46 --> Class "App\Controllers\Accounting_library" not found
+in APPPATH\Controllers\Users.php on line 396.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Users->logout()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

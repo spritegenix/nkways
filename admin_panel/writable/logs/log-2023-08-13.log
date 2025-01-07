@@ -1,0 +1,252 @@
+CRITICAL - 2023-08-13 04:10:54 --> Undefined variable $check_is_same_day
+in APPPATH\Controllers\Hr_manage.php on line 632.
+ 1 APPPATH\Controllers\Hr_manage.php(632): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $check_is_same_day', 'APPPATH\\Controllers\\Hr_manage.php', 632)
+ 2 APPPATH\Controllers\Hr_manage.php(502): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:11:05 --> Undefined variable $check_is_same_day
+in APPPATH\Controllers\Hr_manage.php on line 632.
+ 1 APPPATH\Controllers\Hr_manage.php(632): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $check_is_same_day', 'APPPATH\\Controllers\\Hr_manage.php', 632)
+ 2 APPPATH\Controllers\Hr_manage.php(502): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:11:46 --> Undefined variable $check_is_same_day
+in APPPATH\Controllers\Hr_manage.php on line 632.
+ 1 APPPATH\Controllers\Hr_manage.php(632): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $check_is_same_day', 'APPPATH\\Controllers\\Hr_manage.php', 632)
+ 2 APPPATH\Controllers\Hr_manage.php(582): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:11:47 --> Undefined variable $check_is_same_day
+in APPPATH\Controllers\Hr_manage.php on line 632.
+ 1 APPPATH\Controllers\Hr_manage.php(632): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $check_is_same_day', 'APPPATH\\Controllers\\Hr_manage.php', 632)
+ 2 APPPATH\Controllers\Hr_manage.php(582): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:37:12 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 599.
+ 1 APPPATH\Controllers\Hr_manage.php(599): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 599)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:38:27 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 598.
+ 1 APPPATH\Controllers\Hr_manage.php(598): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 598)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:38:44 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 586.
+ 1 APPPATH\Controllers\Hr_manage.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 586)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:38:45 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 586.
+ 1 APPPATH\Controllers\Hr_manage.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 586)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:39:23 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 582.
+ 1 APPPATH\Controllers\Hr_manage.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 582)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:39:42 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 593.
+ 1 APPPATH\Controllers\Hr_manage.php(593): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 593)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:39:54 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 586.
+ 1 APPPATH\Controllers\Hr_manage.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 586)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:40:17 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 598.
+ 1 APPPATH\Controllers\Hr_manage.php(598): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 598)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:40:26 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 582.
+ 1 APPPATH\Controllers\Hr_manage.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 582)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:40:32 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 582.
+ 1 APPPATH\Controllers\Hr_manage.php(582): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 582)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:40:54 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 593.
+ 1 APPPATH\Controllers\Hr_manage.php(593): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 593)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:41:03 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 593.
+ 1 APPPATH\Controllers\Hr_manage.php(593): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 593)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:41:09 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 586.
+ 1 APPPATH\Controllers\Hr_manage.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 586)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:42:19 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 586.
+ 1 APPPATH\Controllers\Hr_manage.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 586)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:42:20 --> Undefined array key "worked_hours"
+in APPPATH\Controllers\Hr_manage.php on line 586.
+ 1 APPPATH\Controllers\Hr_manage.php(586): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "worked_hours"', 'APPPATH\\Controllers\\Hr_manage.php', 586)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:46:45 --> date_diff(): Argument #1 ($baseObject) must be of type DateTimeInterface, bool given
+in APPPATH\Controllers\Hr_manage.php on line 585.
+ 1 APPPATH\Controllers\Hr_manage.php(585): date_diff(false, Object(DateTime))
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:47:53 --> Undefined variable $new_punched_time
+in APPPATH\Controllers\Hr_manage.php on line 600.
+ 1 APPPATH\Controllers\Hr_manage.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_punched_time', 'APPPATH\\Controllers\\Hr_manage.php', 600)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:47:55 --> Undefined variable $new_punched_time
+in APPPATH\Controllers\Hr_manage.php on line 600.
+ 1 APPPATH\Controllers\Hr_manage.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_punched_time', 'APPPATH\\Controllers\\Hr_manage.php', 600)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:48:05 --> Undefined variable $new_punched_time
+in APPPATH\Controllers\Hr_manage.php on line 597.
+ 1 APPPATH\Controllers\Hr_manage.php(597): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_punched_time', 'APPPATH\\Controllers\\Hr_manage.php', 597)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:48:06 --> Undefined variable $new_punched_time
+in APPPATH\Controllers\Hr_manage.php on line 597.
+ 1 APPPATH\Controllers\Hr_manage.php(597): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_punched_time', 'APPPATH\\Controllers\\Hr_manage.php', 597)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:48:25 --> Undefined variable $new_punched_time
+in APPPATH\Controllers\Hr_manage.php on line 585.
+ 1 APPPATH\Controllers\Hr_manage.php(585): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_punched_time', 'APPPATH\\Controllers\\Hr_manage.php', 585)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:49:38 --> Undefined variable $new_punched_time
+in APPPATH\Controllers\Hr_manage.php on line 600.
+ 1 APPPATH\Controllers\Hr_manage.php(600): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_punched_time', 'APPPATH\\Controllers\\Hr_manage.php', 600)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:49:46 --> Undefined variable $new_punched_time
+in APPPATH\Controllers\Hr_manage.php on line 591.
+ 1 APPPATH\Controllers\Hr_manage.php(591): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_punched_time', 'APPPATH\\Controllers\\Hr_manage.php', 591)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-13 04:49:47 --> Undefined variable $new_punched_time
+in APPPATH\Controllers\Hr_manage.php on line 591.
+ 1 APPPATH\Controllers\Hr_manage.php(591): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $new_punched_time', 'APPPATH\\Controllers\\Hr_manage.php', 591)
+ 2 APPPATH\Controllers\Hr_manage.php(534): App\Controllers\Hr_manage->reset_logs_data([...])
+ 3 APPPATH\Controllers\Hr_manage.php(468): App\Controllers\Hr_manage->push_log_as_attendance([...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Hr_manage->manual_push_punch()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Hr_manage))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
