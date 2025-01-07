@@ -26,10 +26,10 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => 'localhost',
-        'username' => 'root',
-        'password' => '',
-        'database' => 'ashik_db',
+        'hostname' => '',
+        'username' => 'nkways',
+        'password' => 'Nkways@2024',
+        'database' => 'nkways_db',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
