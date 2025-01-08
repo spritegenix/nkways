@@ -141,7 +141,7 @@
                                 <a class="text-danger delete_enquiries" data-url="< ?= base_url('website_management/delete_enquiries'); ?>/<?= $enq['id']; ?>"><i class="bx bx-trash me-0" style="font-size: 18px;"></i></a>
                             </td> -->
                             <td>
-                                <a class="text-danger delete_enquiries" data-url="<?= base_url('website_management/delete_review'); ?>/<?= $enq['id']; ?>"><i class="bx bx-trash me-0" style="font-size: 18px;"></i></a>
+                                <a class="text-danger delete_enquiries" data-url="<?= base_url('website_management/delete_mail'); ?>/<?= $enq['id']; ?>"><i class="bx bx-trash me-0" style="font-size: 18px;"></i></a>
 
                             </td>
                         </tr>

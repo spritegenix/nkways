@@ -40,6 +40,7 @@ $routes->post('/website_management/submit-testimonial', 'Website_management::sub
 $routes->get('/website_management/all-reviews', 'Website_management::getAllReviews');
 $routes->post('/website_management/email', 'Website_management::email');
 $routes->get('/website_management/allmails', 'Website_management::allMails');
+$routes->get('/website_management/delete_mail/(:any)', 'Website_management::delete_mail/$1');
 ///////////// Website /////////////////
 
 
