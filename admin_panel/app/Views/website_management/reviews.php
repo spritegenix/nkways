@@ -98,7 +98,7 @@
                                         <input type="text" class="form-control" name="designation" required>
 
                                     </div>
-                                    <!-- <div class="form-group col-md-6 mb-2">
+                                    <div class="form-group col-md-6 mb-2">
                                         <label>Ratings</label>
                                         <select class="form-select" required name="ratings">
                                             <option value="">Select</option>
@@ -109,7 +109,7 @@
                                             <option value="5">5</option>
                                         </select>
 
-                                    </div> -->
+                                    </div>
                                     <div class="form-group col-md-12 mb-2">
                                         <label>Review</label>
                                         <textarea class="form-control" rows="4" name="review" required></textarea>

@@ -17,7 +17,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'https://nkwayshome.co.za/admin_panel';
+    public string $baseURL = 'https://nkwayshome.co.za/admin_panel/';
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.

@@ -26,9 +26,9 @@ class Database extends Config
      */
     public array $default = [
         'DSN'      => '',
-        'hostname' => '',
-        'username' => 'nkways',
-        'password' => 'Nkways@2024',
+        'hostname' => 'localhost',
+        'username' => 'root',
+        'password' => '',
         'database' => 'nkways_db',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',

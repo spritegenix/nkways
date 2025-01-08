@@ -20,6 +20,72 @@
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+      }
+    
+      /* The popup form's modal background */
+      .modal {
+          display: none; /* Hidden by default */
+          position: fixed;
+          z-index: 101; /* Sit on top */
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          background-color: rgba(0, 0, 0, 0.4); /* Background color */
+      }
+    
+      /* Popup Form Container */
+      .modal-content {
+          background-color: #fff;
+          margin: 15% auto;
+          padding: 20px;
+          border: 1px solid #888;
+          width: 80%;
+          max-width: 400px;
+          border-radius: 8px;
+      }
+    
+      /* Close button */
+      .close {
+          color: #aaa;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+      }
+    
+      .close:hover,
+      .close:focus {
+          color: black;
+          text-decoration: none;
+          cursor: pointer;
+      }
+    
+      /* Input fields */
+      .inputstest {
+          width: 100%;
+          padding: 12px;
+          margin: 8px 0;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+      }
+    
+      /* Submit button */
+      /* button {
+          background-color: #ffcc00;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          cursor: pointer;
+          border-radius: 4px;
+          width: 100%;
+      } */
+    
+    </style>
   </head>
   <body>
     <!-- header -->
@@ -398,7 +464,8 @@
                     <img src="img/bg/Icon_comment.png" alt="img" />
                   </div>
                   <p>
-                    Contractor obtained via Kandua called www.nkwayshome.co.za for Cape Town and surrounding region. Extremely professional and trustworthy. We painted our house internally and used them for finishing, carpentry and electrical work. Would highly recommend Arnold and his team. 👌🏼                    </p>
+                    Contractor obtained via Kandua called www.nkwayshome.co.za for Cape Town and surrounding region. Extremely professional and trustworthy. We painted our house internally and used them for finishing, carpentry and electrical work. Would highly recommend Arnold and his team. 👌🏼                   
+                   </p>
                   <div class="testi-author d-flex gap-4 justify-content-center align-items-center">
                     <img src="img/testimonial/test_img01.png" alt="img" />
                     <div class="ta-info mt-0 ml-3 text-center">
@@ -412,7 +479,8 @@
                     <img src="img/bg/Icon_comment.png" alt="img" />
                   </div>
                   <p>
-                    We recently hired NKWays for the interior paint work of our home.Along the way, they recentered electrical work and fixed a few other issues.Arnold and his team are hard working,efficient and a great bunch to have on site.They are always early on site and will not close off on the project unless both you and the team are completely happy. It was wonderful to experience a home improvement that was stress free.I would highly recommend their services.Many thanks to Arnold and his experienced team members.</p>                    <div class="testi-author d-flex gap-4 justify-content-center align-items-center">
+                    We recently hired NKWays for the interior paint work of our home.Along the way, they recentered electrical work and fixed a few other issues.Arnold and his team are hard working,efficient and a great bunch to have on site.They are always early on site and will not close off on the project unless both you and the team are completely happy. It was wonderful to experience a home improvement that was stress free.I would highly recommend their services.Many thanks to Arnold and his experienced team members.
+                  </p>                    <div class="testi-author d-flex gap-4 justify-content-center align-items-center">
                     <img src="img/testimonial/test_img01.png" alt="img" />
                     <div class="ta-info mt-0 ml-3 text-center">
                       <h6>Faranaaz</h6>
@@ -470,7 +538,7 @@
             </div>
           </div>
           <div class="col-lg-1">
-            <!-- <div class="slider-btn d-flex justify-content-center pt-3">
+            <div class="slider-btn d-flex justify-content-center pt-3">
               <button id="addTestimonial"
                style="z-index: 1;"
                 class="btn ss-btn"
@@ -478,7 +546,7 @@
                 data-delay=".8s"
                 >Add Testimonial</button
               >
-            </div> -->
+            </div>
              <!-- The Modal -->
   <div id="myModal" class="modal">
     <!-- Modal content -->
@@ -877,6 +945,6 @@
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/element-in-view.js"></script>
     <script src="js/main.js"></script>
-    <!-- <script src="js/popup.js"></script> -->
+    <script src="js/popup.js"></script>
   </body>
 </html>

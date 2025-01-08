@@ -1,6 +1,6 @@
 // Get the modal
 var modal = document.getElementById('myModal');
-
+let baseUrl = 'https://nkwayshome.co.za/admin_panel/website_management';
 // Get the button that opens the modal
 var btn = document.getElementById('addTestimonial');
 
@@ -39,12 +39,12 @@ document.getElementById('testimonialForm').onsubmit = function (event) {
     profile_pic: 'img/testimonial/test_img01.png',
     user_name: username,
     designation: designation,
-    ratings: '4',
+    ratings: '5',
     review: message,
   };
 
   // Send the form data as JSON using fetch API with updated URL
-  fetch('http://localhost/admin_panel/website_management/submit-testimonial', {
+  fetch(`${baseUrl}/submit-testimonial`, {
     method: 'POST',
     body: JSON.stringify(formData),
   })
@@ -80,7 +80,7 @@ window.onload = function () {
     return;
   }
 
-  fetch('http://localhost/admin_panel/website_management/all-reviews')
+  fetch(`${baseUrl}/all-reviews`)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
