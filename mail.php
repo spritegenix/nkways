@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'created_at' => date('Y-m-d H:i:s'),
     ];
 
-    $ciUrl = "https://nkwayshome.co.za/admin_panel/website_management/email";
+    $ciUrl = "https://www.nkwayshome.co.za/admin_panel/website_management/email";
 
     $options = [
         'http' => [
