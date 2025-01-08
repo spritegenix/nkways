@@ -107,6 +107,7 @@
                         <th class="sorticon">Phone</th>
                         <th class="sorticon">Subject</th>
                         <th class="sorticon">message</th>
+                        <th class="sorticon">action</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -139,7 +140,10 @@
                             <!-- <td data-tableexport-display="none" class="text-center">
                                 <a class="text-danger delete_enquiries" data-url="< ?= base_url('website_management/delete_enquiries'); ?>/<?= $enq['id']; ?>"><i class="bx bx-trash me-0" style="font-size: 18px;"></i></a>
                             </td> -->
-                            <a class="text-danger delete_enquiries" data-url="<?= base_url('website_management/delete_review'); ?>/<?= $enq['id']; ?>"><i class="bx bx-trash me-0" style="font-size: 18px;"></i></a>
+                            <td>
+                                <a class="text-danger delete_enquiries" data-url="<?= base_url('website_management/delete_review'); ?>/<?= $enq['id']; ?>"><i class="bx bx-trash me-0" style="font-size: 18px;"></i></a>
+
+                            </td>
                         </tr>
                     <?php endforeach ?>
                 </tbody>
