@@ -101,7 +101,9 @@ window.onload = function () {
               </div>
               <p>${review.review.trim()}</p>
               <div class="testi-author d-flex gap-4 justify-content-center align-items-center">
-                <img src="${review.profile_pic}" alt="${review.user_name}" />
+                <img src="https://www.nkwayshome.co.za/img/testimonial/test_img01.png" alt="${
+                  review.user_name
+                }" />
                 <div class="ta-info mt-0 ml-3 text-center">
                   <h6>${review.user_name}</h6>
               
