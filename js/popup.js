@@ -1,6 +1,6 @@
 // Get the modal
 var modal = document.getElementById('myModal');
-let baseUrl = 'https://nkwayshome.co.za/admin_panel/website_management';
+let baseUrl = 'https://www.nkwayshome.co.za/admin_panel/website_management';
 // Get the button that opens the modal
 var btn = document.getElementById('addTestimonial');
 
