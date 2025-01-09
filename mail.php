@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Port = $_ENV['SMTP_PORT'];
 
         $mail->setFrom($email, $name);
-        $mail->addAddress('ashikshettyc@gmail.com', 'Admin');
+        $mail->addAddress('info@nkwayshome.co.za', 'Admin');
 
         $mail->Subject = $subject;
         $mail->Body = "Name: $name\nEmail: $email\nMobile: $mobile\n\nMessage:\n$message";
