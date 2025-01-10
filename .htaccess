@@ -1,17 +1,40 @@
+# Disable Directory Browsing
+Options All -Indexes
+
 # Enable Rewrite Engine
-RewriteEngine On
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks
+    RewriteEngine On
 
-# Set the base directory
-RewriteBase /
+    # Redirect Trailing Slashes
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
 
-# Redirect requests to the correct .html file if it exists
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html [L]
+    # Redirect www to non-www
+    RewriteCond %{HTTP_HOST} ^www\. [NC]
+    RewriteRule ^(.*)$ https://nkwayshome.co.za/$1 [L,R=301]
 
-# Handle Next.js SPA fallback for 404s to `404.html`
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^.*$ /404.html [L]
+    # Redirect Specific Files
+    RewriteRule ^(index\.html|home\.asp)$ / [L,R=301]
+
+    # Route All Requests to index.html
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^([\s\S]*)$ index.html [L,NC,QSA]
+
+    # Set the base directory
+    RewriteBase /
+
+    # Redirect requests to the correct .html file if it exists
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^(.*)$ $1.html [L]
+
+    # Handle Next.js SPA fallback for 404s to `404.html`
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^.*$ /404.html [L]
+</IfModule>
 
 # Cache policy for static files
 <IfModule mod_expires.c>
@@ -31,7 +54,7 @@ RewriteRule ^.*$ /404.html [L]
 # Security headers
 <IfModule mod_headers.c>
     Header always set X-Content-Type-Options "nosniff"
-    Header always set X-Frame-Options "DENY"
+    Header always set X-Frame-Options "ALLOW"
     Header always set X-XSS-Protection "1; mode=block"
 </IfModule>
 
