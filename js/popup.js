@@ -1,6 +1,6 @@
 // Get the modal
 var modal = document.getElementById('myModal');
-
+let baseUrl = 'https://www.nkwayshome.co.za/admin_panel/website_management';
 // Get the button that opens the modal
 var btn = document.getElementById('addTestimonial');
 
@@ -39,12 +39,12 @@ document.getElementById('testimonialForm').onsubmit = function (event) {
     profile_pic: 'img/testimonial/test_img01.png',
     user_name: username,
     designation: designation,
-    ratings: '4',
+    ratings: '5',
     review: message,
   };
 
   // Send the form data as JSON using fetch API with updated URL
-  fetch('http://localhost/admin_panel/website_management/submit-testimonial', {
+  fetch(`${baseUrl}/submit-testimonial`, {
     method: 'POST',
     body: JSON.stringify(formData),
   })
@@ -80,7 +80,7 @@ window.onload = function () {
     return;
   }
 
-  fetch('http://localhost/admin_panel/website_management/all-reviews')
+  fetch(`${baseUrl}/all-reviews`)
     .then((response) => {
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -101,7 +101,9 @@ window.onload = function () {
               </div>
               <p>${review.review.trim()}</p>
               <div class="testi-author d-flex gap-4 justify-content-center align-items-center">
-                <img src="${review.profile_pic}" alt="${review.user_name}" />
+                <img src="https://www.nkwayshome.co.za/img/testimonial/test_img01.png" alt="${
+                  review.user_name
+                }" />
                 <div class="ta-info mt-0 ml-3 text-center">
                   <h6>${review.user_name}</h6>
               

@@ -14,7 +14,7 @@ $(function () {
     var formData = $(form).serialize();
     $.ajax({
       type: 'POST',
-      url: ' http://localhost/admin_panel/website_management/email',
+      url: ' https://www.nkwayshome.co.za/admin_panel/website_management/email',
       data: formData,
     });
     // Submit the form using AJAX.

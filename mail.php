@@ -43,9 +43,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = $_ENV['SMTP_PORT'];
 
-        $mail->setFrom($email, $name);
-        $mail->addAddress('ashikshettyc@gmail.com', 'Admin');
-
+        $mail->setFrom($_ENV['SMTP_FROM_EMAIL'], $_ENV['SMTP_FROM_NAME']);
+        $mail->addAddress('info@nkwayshome.co.za', 'Admin');
+        $mail->addReplyTo($email, $name);
         $mail->Subject = $subject;
         $mail->Body = "Name: $name\nEmail: $email\nMobile: $mobile\n\nMessage:\n$message";
 
@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'created_at' => date('Y-m-d H:i:s'),
     ];
 
-    $ciUrl = "http://localhost/admin_panel/website_management/email";
+    $ciUrl = "https://www.nkwayshome.co.za/admin_panel/website_management/email";
 
     $options = [
         'http' => [

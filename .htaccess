@@ -52,12 +52,16 @@ Options All -Indexes
 </IfModule>
 
 # Security headers
+# <IfModule mod_headers.c>
+#     Header always set X-Content-Type-Options "nosniff"
+#     Header always set X-Frame-Options "DENY"
+#     Header always set X-XSS-Protection "1; mode=block"
+# </IfModule>
 <IfModule mod_headers.c>
     Header always set X-Content-Type-Options "nosniff"
     Header always set X-Frame-Options "ALLOW"
     Header always set X-XSS-Protection "1; mode=block"
 </IfModule>
-
 # Enable gzip compression
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
