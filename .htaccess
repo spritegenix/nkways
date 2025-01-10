@@ -6,6 +6,10 @@ Options All -Indexes
     Options +FollowSymlinks
     RewriteEngine On
 
+    # Redirect index.html or index to root URL
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(?:\.html)?\s [NC]
+    RewriteRule ^index(?:\.html)?$ / [L,R=301]
+
     # Redirect .html to URLs without .html
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
     RewriteRule ^ %1 [L,R=301]
