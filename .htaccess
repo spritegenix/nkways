@@ -5,7 +5,15 @@ Options All -Indexes
 <IfModule mod_rewrite.c>
     Options +FollowSymlinks
     RewriteEngine On
+   # Remove .html from URLs
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}\.html -f
+    RewriteRule ^(.*)$ $1 [L,R=301]
 
+    # Internally rewrite URLs to their .html files
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ $1.html [L]
     # Redirect Trailing Slashes
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
