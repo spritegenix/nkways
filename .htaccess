@@ -5,7 +5,8 @@ RewriteEngine On
 RewriteBase /
 
 # Redirect requests to the correct .html file if it exists
-RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ $1.html [L]
 
 # Handle Next.js SPA fallback for 404s to `404.html`

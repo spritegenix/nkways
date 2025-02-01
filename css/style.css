@@ -24,10 +24,10 @@
 */
 
 /* 1. Theme default css */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #595b6b;
@@ -95,7 +95,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   color: #252525;
   margin-top: 0px;
   font-style: normal;
@@ -182,7 +182,7 @@ label {
 }
 .theme-overlay::before {
   background: #1696e7 none repeat scroll 0 0;
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   opacity: 0.6;
@@ -335,7 +335,7 @@ label {
 .main-menu ul li a {
   display: block;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   padding: 20px 0;
   position: relative;
@@ -407,7 +407,7 @@ label {
   background: #ffcc00;
 }
 .menu-area::before {
-  content: "";
+  content: '';
   background: #fff;
   width: 33%;
   height: 61px;
@@ -502,14 +502,14 @@ label {
   background: #ffcc00;
 }
 .slider-active .slick-dots li.slick-active button::before {
-  background: url("../img/bg/active-dote.png");
+  background: url('../img/bg/active-dote.png');
   opacity: 1;
 }
 .slider-active .slick-dots li button::before {
-  content: "";
+  content: '';
   width: 19px;
   height: 19px;
-  background: url("../img/bg/dote.png");
+  background: url('../img/bg/dote.png');
   float: left;
   position: relative;
   margin-top: -9px;
@@ -681,7 +681,7 @@ label {
   padding-right: 15px;
   padding-left: 15px;
   color: #ffcc00;
-  content: ">";
+  content: '>';
 }
 .breadcrumb-title h2 {
   font-size: 60px;
@@ -708,7 +708,7 @@ label {
   z-index: 1;
 }
 .slider-bg::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -722,7 +722,7 @@ label {
   opacity: 0;
 } */
 .show-bg3::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -742,7 +742,7 @@ label {
   z-index: 1;
 }
 .slider-content > span::before {
-  content: "";
+  content: '';
   background: #fff;
   height: 3px;
   float: left;
@@ -1025,7 +1025,7 @@ label {
   color: #252525;
   opacity: 0.05;
   margin: 0;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   font-style: italic;
   top: -35px;
@@ -1054,7 +1054,7 @@ label {
 .signature-text {
   font-size: 22px;
   color: #ffcc00;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 600;
 }
 .circle-right {
@@ -1099,7 +1099,7 @@ label {
   position: relative;
 }
 .section-title h2::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -1161,7 +1161,7 @@ section:hover .section-title h2::before {
   position: relative;
 }
 .single-services::before {
-  content: "";
+  content: '';
   height: 100%;
   width: 100%;
   position: absolute;
@@ -1279,7 +1279,7 @@ section:hover .section-title h2::before {
 .second-services-content h5 {
   font-weight: 600;
   transition: 0.3s;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   letter-spacing: 0;
   font-size: 18px;
   color: #252525;
@@ -1312,7 +1312,7 @@ section:hover .section-title h2::before {
   display: block;
 }
 
-.s-single-services:hover {
+/* .s-single-services:hover {
   background: #fff;
 }
 .s-single-services:hover .second-services-content h5 {
@@ -1320,30 +1320,30 @@ section:hover .section-title h2::before {
 }
 .s-single-services:hover .second-services-content a {
   color: #ffcc00;
-}
+} */
 
-.s-single-services.active {
-  background: url("../img/features/se-hover-bg.png");
+.s-single-services:hover {
+  background: url('../img/features/se-hover-bg.png');
   box-shadow: 3px 4px 15px #1414147d;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.s-single-services.active .services-icon {
+.s-single-services:hover .services-icon {
   background: #fff;
 }
-.s-single-services.active .second-services-content h5 {
+.s-single-services:hover .second-services-content h5 {
   color: #fff;
 }
-.s-single-services.active .second-services-content a {
+.s-single-services:hover .second-services-content a {
   color: #fff;
 }
-.s-single-services.active .second-services-content p {
+.s-single-services:hover .second-services-content p {
   color: #fff;
 }
-.s-single-services.active .active-icon {
+.s-single-services:hover .active-icon {
   display: block;
 }
-.s-single-services.active .d-active-icon {
+.s-single-services:hover .d-active-icon {
   display: none;
 }
 .services-bg {
@@ -1365,7 +1365,7 @@ section:hover .section-title h2::before {
   width: 100%;
 }
 .video-img::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -1390,7 +1390,7 @@ section:hover .section-title h2::before {
   padding: 25px;
 }
 .video-img a::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1460,7 +1460,7 @@ section:hover .section-title h2::before {
   position: relative;
 }
 .s-video-content a::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -1670,14 +1670,14 @@ section:hover .section-title h2::before {
 .team-active .slick-dots li.slick-active button {
 }
 .team-active .slick-dots li.slick-active button::before {
-  background: url("../img/bg/active-dote.png");
+  background: url('../img/bg/active-dote.png');
   opacity: 1;
 }
 .team-active .slick-dots li button::before {
-  content: "";
+  content: '';
   width: 19px;
   height: 19px;
-  background: url("../img/bg/dote.png");
+  background: url('../img/bg/dote.png');
   float: left;
   position: relative;
   margin-top: -9px;
@@ -1743,7 +1743,7 @@ section:hover .section-title h2::before {
   margin-top: 5px;
 }
 .team-thumb .brd::before {
-  content: "+";
+  content: '+';
   position: absolute;
   top: -12px;
   left: -5px;
@@ -1751,7 +1751,7 @@ section:hover .section-title h2::before {
   color: #595b6b;
 }
 .team-thumb .brd::after {
-  content: "+";
+  content: '+';
   position: absolute;
   top: -12px;
   right: -5px;
@@ -1770,7 +1770,7 @@ section:hover .section-title h2::before {
   transform: translateY(-15px);
 }
 .single-team:hover .team-info::before {
-  content: "";
+  content: '';
   height: 20px;
   background: transparent linear-gradient(30deg, #ffcc00 0%, #ffcc00 100%) 0% 0%
     no-repeat padding-box;
@@ -1855,7 +1855,7 @@ section:hover .section-title h2::before {
 .count {
   font-size: 35px;
   color: #ffcc00;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-weight: 500;
   margin-bottom: 13px;
   line-height: 1;
@@ -1867,7 +1867,7 @@ section:hover .section-title h2::before {
   color: #ffcc00;
   line-height: 1;
   position: relative;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 .single-counter p {
   font-size: 16px;
@@ -2180,7 +2180,7 @@ section:hover .section-title h2::before {
   background: none;
   outline: none;
   cursor: pointer;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   padding: 20px 30px;
   width: 100%;
   text-align: left;
@@ -2202,7 +2202,7 @@ section:hover .section-title h2::before {
   padding: 25px 30px;
   padding-top: 0;
   font-size: 14px;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 .faq-wrap .card-header h2 {
   font-size: unset;
@@ -2217,16 +2217,16 @@ section:hover .section-title h2::before {
 }
 .faq-wrap .card-header h2 button::after {
   position: absolute;
-  content: "\f06e";
+  content: '\f06e';
   top: 19px;
   right: 30px;
   font-size: 16px;
-  font-family: "Font Awesome 5 Pro";
+  font-family: 'Font Awesome 5 Pro';
   font-weight: 700;
   color: #252525;
 }
 .faq-wrap .card-header h2 button.collapsed::after {
-  content: "\f070";
+  content: '\f070';
 }
 /* 15. blog */
 
@@ -2506,7 +2506,7 @@ section:hover .section-title h2::before {
   display: block;
 }
 .widget-insta-post li a::before {
-  content: "";
+  content: '';
   position: absolute;
   height: 100%;
   width: 100%;
@@ -2578,7 +2578,7 @@ section:hover .section-title h2::before {
   margin-bottom: 1px;
   padding-right: 15px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .widget__post-content h6:hover a {
   color: #ffcc00;
@@ -2637,7 +2637,7 @@ section:hover .section-title h2::before {
 }
 .widget__banner-overly h3 span {
   display: block;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   font-size: 30px;
   font-weight: 300;
 }
@@ -2701,7 +2701,7 @@ section:hover .section-title h2::before {
 }
 .details__content blockquote::before {
   position: absolute;
-  content: "";
+  content: '';
   left: 19px;
   top: 29px;
   background: url(../img/icon/blockquote_d.png);
@@ -3151,8 +3151,8 @@ div.single-cta:last-child {
   margin-top: 15px;
 }
 .pricing-body li::before {
-  content: "";
-  font-family: "Font Awesome 5 Pro";
+  content: '';
+  font-family: 'Font Awesome 5 Pro';
   color: #ffcc00;
   margin-right: 10px;
 }
@@ -3276,11 +3276,11 @@ div.single-cta:last-child {
   border-radius: 10px;
 }
 .contact-field.c-name::after {
-  content: "\f007";
+  content: '\f007';
 }
 .contact-field::after {
   position: absolute;
-  font-family: "Font Awesome 5 Pro";
+  font-family: 'Font Awesome 5 Pro';
   display: inline-block;
   font-size: 14px;
   text-align: center;
@@ -3289,13 +3289,13 @@ div.single-cta:last-child {
   bottom: 15px;
 }
 .contact-field.c-email::after {
-  content: "\f0e0";
+  content: '\f0e0';
 }
 .contact-field.c-subject::after {
-  content: "\f249";
+  content: '\f249';
 }
 .contact-field.c-message::after {
-  content: "\f303";
+  content: '\f303';
   font-weight: 700;
   top: 20px;
   bottom: unset;
@@ -3330,7 +3330,7 @@ div.single-cta:last-child {
 /* 20. footer */
 .footer-bg {
   background-color: #181f3b;
-  /* background: url(../img/bg/footer_bg.png); */
+  /* background: url(../img/bg/footer_bg.webp); */
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -3346,7 +3346,7 @@ div.single-cta:last-child {
   font-size: 14px;
   color: #fff;
   font-weight: 500;
-  font-family: "Rubik", sans-serif;
+  font-family: 'Rubik', sans-serif;
   display: inline-block;
   margin-right: 20px;
 }
@@ -3368,13 +3368,13 @@ div.single-cta:last-child {
 }
 
 .f-widget-title h5::before {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   bottom: 0;
   height: 5px;
   width: 60px;
-  background: url("../img/bg/circle_right_footer.png") no-repeat;
+  background: url('../img/bg/circle_right_footer.png') no-repeat;
 }
 .footer-link ul li i {
   color: #ffcc00;
@@ -3405,8 +3405,8 @@ div.single-cta:last-child {
   position: relative;
 }
 .f-insta ul li a::before {
-  content: "\e035";
-  font-family: "dripicons-v2" !important;
+  content: '\e035';
+  font-family: 'dripicons-v2' !important;
   position: absolute;
   top: 40%;
   left: 50%;
@@ -3418,7 +3418,7 @@ div.single-cta:last-child {
   z-index: 9;
 }
 .f-insta ul li a::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -3817,13 +3817,13 @@ li.has-sub.has-mega-menu:hover > ul > li > ul {
 .sidebar-widget .widget_archive li:hover {
   color: #ffcc00;
 }
-.post-password-form input[type="password"] {
+.post-password-form input[type='password'] {
   background: #f6f6f6;
   border: none;
   width: 300px;
   padding: 10px 30px;
 }
-.post-password-form input[type="submit"] {
+.post-password-form input[type='submit'] {
   border: none;
   background: #252525;
   padding: 10px 30px;
@@ -3831,7 +3831,7 @@ li.has-sub.has-mega-menu:hover > ul > li > ul {
   font-size: 14px;
   cursor: pointer;
 }
-.post-password-form input[type="submit"]:hover {
+.post-password-form input[type='submit']:hover {
   background: #ffcc00;
 }
 .wp-block-cover__video-background {
@@ -5001,12 +5001,12 @@ img {
   width: auto;
 }
 .pro-filter::before {
-  content: "\f107";
+  content: '\f107';
   right: 15px;
   top: 15px;
   position: absolute;
   color: #758799;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-weight: 700;
 }
 
@@ -5270,7 +5270,7 @@ img {
   text-transform: uppercase;
   font-size: 16px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   transition: 0.3s;
   letter-spacing: 1px;
 }
@@ -5323,7 +5323,7 @@ img {
   left: 0;
   height: 2px;
   width: 100%;
-  content: "";
+  content: '';
   background: #ffcc00;
   transition: 0.3s;
 }
@@ -5486,12 +5486,12 @@ td.product-thumbnail img {
 }
 
 .coupon-accordion h3::before {
-  content: "\f07b";
+  content: '\f07b';
   left: 15px;
   top: 13px;
   position: absolute;
   color: #6f7172;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-weight: 700;
 }
 
@@ -5543,12 +5543,12 @@ p.lost-password a:hover {
   width: 100%;
 }
 
-.coupon-info p.form-row input[type="submit"]:hover,
-p.checkout-coupon input[type="submit"]:hover {
+.coupon-info p.form-row input[type='submit']:hover,
+p.checkout-coupon input[type='submit']:hover {
   background: #ffcc00 none repeat scroll 0 0;
 }
 
-.coupon-info p.form-row input[type="checkbox"] {
+.coupon-info p.form-row input[type='checkbox'] {
   position: relative;
   top: 2px;
 }
@@ -5560,9 +5560,9 @@ p.checkout-coupon input[type="submit"]:hover {
 }
 
 .buttons-cart input,
-.coupon input[type="submit"],
+.coupon input[type='submit'],
 .buttons-cart a,
-.coupon-info p.form-row input[type="submit"] {
+.coupon-info p.form-row input[type='submit'] {
   background: #252525 none repeat scroll 0 0;
   border: medium none;
   color: #fff;
@@ -5586,7 +5586,7 @@ p.lost-password a {
   color: #6f6f6f;
 }
 
-p.checkout-coupon input[type="text"] {
+p.checkout-coupon input[type='text'] {
   height: 45px;
   padding: 0 15px;
   width: 100%;
@@ -5633,12 +5633,12 @@ p.checkout-coupon input[type="text"] {
 }
 
 .country-select::before {
-  content: "\f107";
+  content: '\f107';
   right: 15px;
   top: 38px;
   position: absolute;
   color: #6f7172;
-  font-family: "Font Awesome 5 Free";
+  font-family: 'Font Awesome 5 Free';
   font-weight: 700;
 }
 
@@ -5650,9 +5650,9 @@ p.checkout-coupon input[type="text"] {
   color: #6f7172;
 }
 
-.checkout-form-list input[type="text"],
-.checkout-form-list input[type="password"],
-.checkout-form-list input[type="email"] {
+.checkout-form-list input[type='text'],
+.checkout-form-list input[type='password'],
+.checkout-form-list input[type='email'] {
   background: #ffffff;
   border: 1px solid #eaedff;
   border-radius: 0;
@@ -5661,21 +5661,21 @@ p.checkout-coupon input[type="text"] {
   width: 100%;
 }
 
-.checkout-form-list input[type="text"]::-moz-placeholder,
-.checkout-form-list input[type="password"]::-moz-placeholder,
-.checkout-form-list input[type="email"]::-moz-placeholder {
+.checkout-form-list input[type='text']::-moz-placeholder,
+.checkout-form-list input[type='password']::-moz-placeholder,
+.checkout-form-list input[type='email']::-moz-placeholder {
   color: #6f7172;
   opacity: 1;
 }
 
-.checkout-form-list input[type="text"]::placeholder,
-.checkout-form-list input[type="password"]::placeholder,
-.checkout-form-list input[type="email"]::placeholder {
+.checkout-form-list input[type='text']::placeholder,
+.checkout-form-list input[type='password']::placeholder,
+.checkout-form-list input[type='email']::placeholder {
   color: #6f7172;
   opacity: 1;
 }
 
-.checkout-form-list input[type="checkbox"] {
+.checkout-form-list input[type='checkbox'] {
   display: inline-block;
   margin-right: 10px;
   position: relative;
@@ -6040,7 +6040,7 @@ p.checkout-coupon input[type="text"] {
   height: 100%;
   width: 4px;
   background-color: #181f3b;
-  content: "";
+  content: '';
   opacity: 0;
   visibility: hidden;
 }
@@ -6085,8 +6085,8 @@ p.checkout-coupon input[type="text"] {
   line-height: 30px;
   color: #222222;
   font-weight: 900;
-  content: "\f0da";
-  font-family: "Font Awesome 5 pro";
+  content: '\f0da';
+  font-family: 'Font Awesome 5 pro';
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   -ms-transition: all 300ms ease;
@@ -6105,7 +6105,7 @@ p.checkout-coupon input[type="text"] {
   top: 0;
   height: 100%;
   width: 100%;
-  content: "";
+  content: '';
   background-color: #ffcc00;
   z-index: -1;
   -webkit-transition: -webkit-transform 0.4s ease;
@@ -6194,7 +6194,7 @@ p.checkout-coupon input[type="text"] {
 
 .help-box:before {
   position: absolute;
-  content: "";
+  content: '';
   left: 0px;
   top: 0px;
   width: 100%;
@@ -6356,7 +6356,7 @@ p.checkout-coupon input[type="text"] {
 
 .service-detail .prod-tabs .tab-btns .tab-btn:before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 50%;
   width: 0%;
@@ -6378,7 +6378,7 @@ p.checkout-coupon input[type="text"] {
 .service-detail .prod-tabs .tab-btns .tab-btn:hover:after,
 .service-detail .prod-tabs .tab-btns .tab-btn.active-btn:after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0px;
   bottom: -3px;
   width: 100%;
@@ -6438,9 +6438,9 @@ p.checkout-coupon input[type="text"] {
   top: 0;
   font-size: 14px;
   color: #ffcc00;
-  content: "\f101";
+  content: '\f101';
   font-weight: 900;
-  font-family: "Font Awesome 5 Pro";
+  font-family: 'Font Awesome 5 Pro';
 }
 
 /*** 
@@ -6692,9 +6692,8 @@ p.checkout-coupon input[type="text"] {
   z-index: 0;
 }
 
-
 .breadcrumb-area::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   top: 0;
@@ -6705,7 +6704,7 @@ p.checkout-coupon input[type="text"] {
   transition: 0.3s;
 }
 
-.breadcrumb-area .container{
+.breadcrumb-area .container {
   z-index: 1 !important;
 }
 
@@ -6722,31 +6721,29 @@ p.checkout-coupon input[type="text"] {
 
 @media (max-width: 767px) {
   .menu-area::before {
-      height: 80px !important;
+    height: 80px !important;
   }
 }
 
 @media (max-width: 767px) {
   .menu-area {
-      padding: 0px 0 0 !important;
+    padding: 0px 0 0 !important;
   }
-  #header-sticky{
+  #header-sticky {
     height: 80px;
   }
   .sticky-menu .mean-container a.meanmenu-reveal {
     margin-top: -48px !important;
-}
-.logo a img {
-  padding-top: 5px !important;
-}
+  }
+  .logo a img {
+    padding-top: 5px !important;
+  }
   .logo {
-      padding:0 !important;
-  
-}
-.logo img {
-  width: 6rem !important;
-}
-
+    padding: 0 !important;
+  }
+  .logo img {
+    width: 6rem !important;
+  }
 }
 
 .mean-container .mean-nav {
@@ -6755,11 +6752,11 @@ p.checkout-coupon input[type="text"] {
 
 @media (min-width: 768px) and (max-width: 991px) {
   .logo {
-      width: 16% !important;
+    width: 16% !important;
   }
   .sticky-menu::before {
     height: 101px !important;
-}
+  }
 }
 
 .mean-container .mean-bar {
@@ -6768,45 +6765,43 @@ p.checkout-coupon input[type="text"] {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .sticky-menu::before {
-      height: 80px !important;
+    height: 80px !important;
   }
- 
 }
 
 .mean-container a.meanmenu-reveal {
   top: -10px !important;
 }
 
-.addressForm{
-background-color: white;
-padding: 5rem 0 !important;
-border-radius: 2rem !important;
+.addressForm {
+  background-color: white;
+  padding: 5rem 0 !important;
+  border-radius: 2rem !important;
 }
 
-.addressForm ul{
+.addressForm ul {
   margin: 0 2rem !important;
   gap: 20px !important;
 }
-.contact-icons{
+.contact-icons {
   font-size: 1.2rem !important;
 }
 
-
-.contact-texts{
-font-size: 1.3rem;
-font-weight: bold;
-color: #181f3b !important;
+.contact-texts {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #181f3b !important;
 }
 
-.contact-texts a{
+.contact-texts a {
   color: #181f3b !important;
   padding-left: 0.2rem !important;
 }
 
 @media (max-width: 983px) {
-  .addressForm{
+  .addressForm {
     margin-top: 5rem !important;
-    }
+  }
 }
 #floating_btn {
   position: fixed;
@@ -6822,7 +6817,7 @@ color: #181f3b !important;
 }
 
 @media (min-width: 983px) {
-  #home{
+  #home {
     height: 750px;
   }
 }
@@ -6835,7 +6830,6 @@ color: #181f3b !important;
   .slider-bg {
     background-position: left !important;
   }
- 
 }
 
 @media (max-width: 363px) {
@@ -6844,80 +6838,76 @@ color: #181f3b !important;
   }
   .slider-btn {
     margin-bottom: 50px !important;
-}
-.slider-content > span {
-  margin-top: 30px !important;
-}
-.readers {
-  margin-top: -32px !important;
-}
+  }
+  .slider-content > span {
+    margin-top: 30px !important;
+  }
+  .readers {
+    margin-top: -32px !important;
+  }
 
-
-#floating_btn {
-  bottom: 89px;
-  right: 18px;
-  width: 47px;
-  height: 60px;
-}
+  #floating_btn {
+    bottom: 89px;
+    right: 18px;
+    width: 47px;
+    height: 60px;
+  }
 }
 @media (max-width: 768px) {
   .contact-bg {
     background-position: left !important;
+  }
 }
 
-}
-
-.gallery-container{
-  padding: 2rem ;
+.gallery-container {
+  padding: 2rem;
   column-count: 4;
   max-width: 75%;
   margin: 0 auto;
 }
-.gallery-container img{
+.gallery-container img {
   width: 100%;
-height: auto;
-margin-bottom: 1rem;
+  height: auto;
+  margin-bottom: 1rem;
 }
-.gallery-container img:hover{
- transform: scale(1.1) ;
- transition: transform 0.4s ease;
- border: 5px solid #ffcc00;
+.gallery-container img:hover {
+  transform: scale(1.1);
+  transition: transform 0.4s ease;
+  border: 5px solid #ffcc00;
 }
 
-@media (max-width:1024px) {
-  .gallery-container{
+@media (max-width: 1024px) {
+  .gallery-container {
     column-count: 3;
   }
 }
-@media (max-width:768px) {
-  .gallery-container{
+@media (max-width: 768px) {
+  .gallery-container {
     column-count: 2;
     max-width: 85%;
   }
 }
-@media (max-width:426px) {
-  .gallery-container{
+@media (max-width: 426px) {
+  .gallery-container {
     column-count: 1;
     max-width: 90%;
   }
 }
-.slick-prev .slick-arrow{
-display: none !important;
+.slick-prev .slick-arrow {
+  display: none !important;
 }
-.regular{
-height: 20rem;
+.regular {
+  height: 20rem;
 }
 
-.regular div{
+.regular div {
   height: 300px;
   width: 100%;
   padding: 0 1rem;
-  
-  }
-  .regular div img{
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-   border-radius: 2rem;
-    }
-
+}
+.regular div img {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}

@@ -97,6 +97,22 @@ class Website_management extends BaseController
         ], 405);
     }
 
+    public function delete_mail($id = 0)
+    {
+        $model = new UserModel();
+        $EmailModel = new EmailModel();
+
+        if ($this->request->getMethod() == 'get') {
+            $EmailModel->find($id);
+            $EmailModel->delete($id);
+            $session = session();
+            $session->setFlashdata('pu_msg', 'email deleted successfully');
+            return redirect()->to(base_url('website_management/email'));
+        } else {
+            return redirect()->to(base_url('website_management/email'));
+        }
+    }
+
     public function allMails()
     {
         $session = session();
