@@ -1312,7 +1312,7 @@ section:hover .section-title h2::before {
   display: block;
 }
 
-.s-single-services:hover {
+/* .s-single-services:hover {
   background: #fff;
 }
 .s-single-services:hover .second-services-content h5 {
@@ -1320,30 +1320,30 @@ section:hover .section-title h2::before {
 }
 .s-single-services:hover .second-services-content a {
   color: #ffcc00;
-}
+} */
 
-.s-single-services.active {
+.s-single-services:hover {
   background: url('../img/features/se-hover-bg.png');
   box-shadow: 3px 4px 15px #1414147d;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.s-single-services.active .services-icon {
+.s-single-services:hover .services-icon {
   background: #fff;
 }
-.s-single-services.active .second-services-content h5 {
+.s-single-services:hover .second-services-content h5 {
   color: #fff;
 }
-.s-single-services.active .second-services-content a {
+.s-single-services:hover .second-services-content a {
   color: #fff;
 }
-.s-single-services.active .second-services-content p {
+.s-single-services:hover .second-services-content p {
   color: #fff;
 }
-.s-single-services.active .active-icon {
+.s-single-services:hover .active-icon {
   display: block;
 }
-.s-single-services.active .d-active-icon {
+.s-single-services:hover .d-active-icon {
   display: none;
 }
 .services-bg {

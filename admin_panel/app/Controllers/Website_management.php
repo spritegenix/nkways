@@ -1022,13 +1022,25 @@ class Website_management extends BaseController
 
         // Get and validate input data
         $inputData = $this->request->getJSON();
-        if (!$inputData || empty($inputData->user_name) || empty($inputData->review)) {
-            return $this->response->setStatusCode(400)->setJSON(['error' => 'Invalid input']);
+        if (!$inputData) {
+            return $this->response->setStatusCode(400)->setJSON(['error' => 'No input data provided']);
+        }
+
+        if (empty($inputData->username)) {
+            $errors[] = 'Username is required';
+        }
+
+        if (empty($inputData->designation)) {
+            $errors[] = 'Designation is required';
+        }
+
+        if (!empty($errors)) {
+            return $this->response->setStatusCode(400)->setJSON(['errors' => $errors]);
         }
 
         // Sanitize inputs
         $sanitizedData = [
-            'user_name' => htmlspecialchars($inputData->user_name),
+            'user_name' => htmlspecialchars($inputData->username),
             'designation' => htmlspecialchars($inputData->designation),
             'review' => htmlspecialchars($inputData->review),
             'profile_pic' => htmlspecialchars($inputData->profile_pic),
