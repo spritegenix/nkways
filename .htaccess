@@ -10,9 +10,16 @@ Options All -Indexes
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/index(?:\.html)?\s [NC]
     RewriteRule ^index(?:\.html)?$ / [L,R=301]
 
+<<<<<<< HEAD
     # Redirect .html to URLs without .html
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
     RewriteRule ^ %1 [L,R=301]
+=======
+# Redirect requests to the correct .html file if it exists
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.html [L]
+>>>>>>> b60cc0ff842dc792d5e2cd7457f82fc8b27eb72b
 
     # Internally serve .html files for URLs without .html
     RewriteCond %{REQUEST_FILENAME} !-d
