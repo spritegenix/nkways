@@ -402,6 +402,7 @@ label {
 }
 #mobile-menu {
   display: block;
+  z-index: 9999;
 }
 .menu-area {
   background: #ffcc00;
